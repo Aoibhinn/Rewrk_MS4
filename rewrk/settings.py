@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRETE_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rewrk_ms4/heokuapp.com', 'localhost' ]
+ALLOWED_HOSTS = ['rewrk-ms4/heokuapp.com', 'localhost']
 
 
 # Application definition
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'cloudinary_storage',
-    'cloudinary'
+    'cloudinary',
     'django.contrib.staticfiles',
     'service',
 ]
@@ -135,7 +135,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 STATIC_URL = '/static/'
-STATIC_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
