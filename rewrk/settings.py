@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRETE_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rewrk-ms4/heokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['rewrk-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
