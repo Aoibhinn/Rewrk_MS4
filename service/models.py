@@ -16,6 +16,7 @@ class Service(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     customer = models.ManyToManyField(
         User, related_name="customer_services", blank=True)
+    id = models.AutoField(primary_key=True)
 
     class Meta:
         ordering = ["-created_on"]
