@@ -65,6 +65,11 @@
           >
             <a class="nav-link" href="{#}}">About Rewrk</a>
           </li>
+          {% if user.is_authenticated %}
+          <li class='nav-item px-2'>
+              <a class="nav-link" href="#">My Profile</a>
+          </li>
+          {% endif %}
         </ul>
 
 
