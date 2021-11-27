@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'django_summernote',
     'service',
     'service_booking',
+    'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 SITE_ID = 1
 
