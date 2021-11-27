@@ -6,3 +6,4 @@ from django.shortcuts import render
 def servicebooking(request):
 
     return render(request, "booking.html")
+
