@@ -19,10 +19,7 @@
 		<nav>
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item">
-					<a href="{#}">Home</a>
-				</li>
-				<li class="breadcrumb-item">
-					<a href="{#}">Services</a>
+					<a href="{% url 'home' %}">All Services</a>
 				</li>
 				<li class="breadcrumb-item active">{{ service.service_name }}</li>
 			</ol>
@@ -38,10 +35,10 @@
 		<div class="row">
 			<div class="col-md-9 py-2">
 				<!-- Fields -->
-				<div class="row mb-5 fields">
-					<div class="col-lg-12">
+				<div class="row mb-5 fields ">
+					<div class="col-lg-12 ">
 						<div class="row py-2">
-							<div class="col-6"><i class="fas fa-euro-sign text-secondary"></i>
+							<div class="col-6 "><i class="fas fa-euro-sign text-secondary" ></i>
 								{% if service.price == 0 %}
 								{{"Free"}}
 								{% else %}
