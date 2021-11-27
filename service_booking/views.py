@@ -23,11 +23,11 @@ def booking(request):
                 'date': form.cleaned_data['date'],
                 'service': form.cleaned_data['service'],
             }
-            message = "\n".join(body.values())
+            message = '\n'.join(map(str, body.values()))
             messages.success(request, 'Message sent successfully!')
             try:
                 send_mail(subject, message, '97aoibhinn@gmail.com', [
-                    'coachingwar@gmail.com'])
+                    '97aoibhinn@gmail.comg'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
     form = BookingForm()
