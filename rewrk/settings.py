@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'service',
     'service_booking',
     'crispy_forms',
+    'customer',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
