@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 
 def servicebooking(request):
-    template = 'service_booking/booking.html'
-    return render(request, template)
+
+    return render(request, "booking.html")

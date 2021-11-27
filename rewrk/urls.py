@@ -7,5 +7,5 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path('', include('service.urls'), name='service_urls'),
     path('accounts/', include('allauth.urls')),
-    path('service_booking/', include('booking_service.urls')),
+    path('service_booking/', include('service_booking.urls')),
 ]
