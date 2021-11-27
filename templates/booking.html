@@ -2,6 +2,61 @@
 {% block title %}| Book Service{% endblock title %}
 
 {% block content %}
-  <h1>Book a Service</h1>
+<div class="container">
+  <div class="row">
+    <!-- section heading -->
+ <div class="col-12">
+   <div class="section-heading text-center white">
+     <h2>Book a Service</h2>
+     <div class="line"></div>
+   </div>
+ </div>
+</div>
+
+
+<div class="row">
+  <div class="col-12">
+    <!-- Booking form -->
+    <div class="booking-form">
+      <form action="{#}" method="post">
+        {% csrf_token %}
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group mb-30">
+              <input type="text" name="your-name" class="form-control" placeholder="Your Name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-30">
+              <input type="text" name="business-name" class="form-control" placeholder="Business Name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-30">
+              <input type="text" name="your-phone" class="form-control" placeholder="Your Phone" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-30">
+              <input type="text" name="your-email" class="form-control" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-30">
+              <select name="booked-service" class="form-control">
+                <option value="choose service">Choose service to book</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Build Website">Build Website</option>
+                <option value="Consultation">Consultation</option>
+                <option value="Video Content">Video Content</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
 
 {% endblock %} 
