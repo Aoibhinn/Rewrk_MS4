@@ -46,7 +46,7 @@
               class="nav-item mr-3"
             {% endif %}  
           >
-            <a class="nav-link" href="{% url 'home' %}">Case Studies</a>
+            <a class="nav-link" href="{% url 'home' %}">All Services</a>
           </li>
           <li 
             {% if 'service' == request.path %}
@@ -55,7 +55,7 @@
               class="nav-item mr-3"
             {% endif %}  
           >
-            <a class="nav-link" href="{#}">All Services</a>
+            <a class="nav-link" href="{% url 'service_booking' %}">Book Service</a>
           </li>
           <li
             {% if 'about' in request.path %} 
