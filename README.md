@@ -174,5 +174,16 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
     * Users can do this on the home page, if they want more detailed information they can click on the service they are interested in and find more information.
 
     <img src="media/images/all_services_ui.png">
-    <img src="/workspace/Rewrk_MS4/media/images/service_detail_ui.png">
+    <img src="media/images/service_detail_ui.png">
+
+2. I want to read about past projects Rewrk have worked with.
+    * Users can read about past projects to learn more about was Rewrk has successfully achieved for their past clients.
+    <img src="media/images/case_study_view.png">
+    <img src="media/images/case_study_detail.png">
+
+2. I want to book one of Rewkrs services
+    * Users can leave their details via Rewkrs service booking form for a member of the team to get back to them.
+    <img src="media/images/book_service.png">
+
+
 
