@@ -92,7 +92,7 @@ Images were sourced from canva.com
    * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their Profile.
    * A confirmation message displays when the user logs in or logs out.
 <img src="media/images/logged_in.png">
-<img src="/workspace/Rewrk_MS4/media/images/logged_out.png">
+<img src="media/images/logged_out.png">
 
 
  
