@@ -9,3 +9,16 @@ class PostList(generic.ListView):
     template_name = "case_study.html"
     paginate_by = 6
 
+class PostDetail(View):
+
+    def get(self, request, slug, *args, **kwargs):
+        queryset = Post.objects.order_by('-created_on')
+        post = get_object_or_404(queryset, slug=slug)
+
+        return render(
+            request,
+            "post_detail.html",
+            {
+                "post": post,
+            },
+        )
