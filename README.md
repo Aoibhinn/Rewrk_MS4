@@ -1,108 +1,145 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rewrk
 
-Welcome Aoibhinn,
+## Project 4 - Full Stack Toolkit
+<img src="/workspace/Rewrk_MS4/media/images/home.png">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Overview
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Rewrk is a digital service provider where customers can come and view each of the services offered by Rewrk. Customers are able to read case studies about businesses who have utilised Rewrk’s services to ensure they are a credible provider. 
 
-## Gitpod Reminders
+Site administrators have the ability to add, remove or update services and case studies to ensure the most up to date content is being presented to customers. Customers are able to create an account with Rewrk to view booked services and become part of a Rewrk community. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This combined with an intuitive interface aims to deliver a smooth and enjoyable customer experience to maximise repeat visits to the site
 
-`python3 -m http.server`
+The live site can be found <a href="https://rewrk-ms4.herokuapp.com/" target="_blank" rel="noopener">here</a>. (Note: Right click on link to open a new tab).
 
-A blue button should appear to click: _Make Public_,
+# Strategy 
 
-Another blue button should appear to click: _Open Browser_.
+During the pandemic a lot of local businesses were forced to close their doors for months. Prior to this many businesses did not have e-commerce websites or even social media accounts and when they were forced to close they were unable to reach any of their customers. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Rewkrs aim is to provide these businesses with access to digital services at reasonable prices. Many web development companies charge high prices that can be out of reach to local, small businesses. Rewkrs aim is not only to create a digital presence for the business but also to educate business owners on how to continue to grow their business online long after working with Rewrk by creating a community that receives monthly emails from Rewrk. 
 
-A blue button should appear to click: _Make Public_,
+# Table of Contents
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# UX
+## Website owner business goals
+* I want my visitors to be able to navigate my website intuitively and easily.
+* I would like the website to be interesting for visitors.
+* I would like to build and maintain relationships with potential and current visitors.
+* I would like to manage the information about the various services.
+* I would like to be able to add draft services so that I can finish writing the content later.
+* I would like to manage customer case studies about past projects we have worked on
+* I would like to be able to add draft case studies so that I can finish writing the content later.
 
-To log into the Heroku toolbelt CLI:
+## User Stories
+### New user goals:
+* I want to find information about the various services.
+* I want to read information about past projects.
+* I want to register on the website.
+### Returning user goals:
+* I would like to view the available services.
+* I would like to be able to book a services.
+* I would like to view the services I have registered for.
+* I would like to be able to edit and delete services I have registered for.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Back to Table of Contents]
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Wireframes
+I used Balsamiq to create the wireframes.
+Wireframes were not created for the Service, ServiceDetail, Login  pages as the basic design is similar to other form styled pages.
 
-------
+* Home page 
+<img src="/workspace/Rewrk_MS4/media/images/All Services:Home.png" >
 
-## Release History
+* service detail
+<img src="/workspace/Rewrk_MS4/media/images/service_detail.png" >
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* service booking
+<img src="/workspace/Rewrk_MS4/media/images/service_booking.png" >
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* login
+<img src="/workspace/Rewrk_MS4/media/images/login.png" >
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* create account
+<img src="/workspace/Rewrk_MS4/media/images/create_an_account.png">
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Home page mobile view
+<img src="/workspace/Rewrk_MS4/media/images/All_services_mobile.png">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+[Back to Table of Contents]
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Design
+### Colors
+The main colors used in this project:
+* Background color: #4C6FBF blue
+* Font color: Black #003060; navy
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Fonts
+Sans-Serif is used as the main font. I did not feel it necessary to change the default font type as Sans-Serif is an easy font to read and displays well throughout the site.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Images
+Images were sourced from canva.com
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Features
+## Existing Features
+### Navigation Bar
+   * Featured on all pages is a fully responsive navigation bar that has links to all pages (Home, All Services, Book Service and Profile).
+   * If the user is not logged in then there are three additional links available available (Register and Login).
+   * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their Profile.
+   * A confirmation message displays when the user logs in or logs out.
+<img src="/workspace/Rewrk_MS4/media/images/logged_in.png">
+<img src="/workspace/Rewrk_MS4/media/images/logged_out.png">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ 
+    
+### Available Service section
+   * On the home page the available services are displayed, with the price.
+   * If the user clicks on a specific service they can view the full description of the service information. At the bottom of the service detail page is a link to the service booking page.
+<img src="/workspace/Rewrk_MS4/media/images/all_services_ui.png">
+<img src="/workspace/Rewrk_MS4/media/images/service_detail_ui.png">
+  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Booking form
+* This page invites the user to submit their interest in booking a specific service.
+* On submission of the form the user is provided with a confirmation message.
+<img src="/workspace/Rewrk_MS4/media/images/book_service.png">
 
-------
+## Future features
+* A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+# Database Schema
+### User Profile model
+* Django's user and admin model was utilised.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Service app
+<img src="/workspace/Rewrk_MS4/media/images/service_model.png">
 
-**How will this affect me?**
+# Technologies Used:
+### Programming Languages:
+* CSS, HTML, Python, and Django.
+### Database framework
+* Postgres.
+### Git
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+### Github
+* GitHub was used to store the projects code after being pushed from Git.
+### Bootstrap 4
+* Bootstrap was used to for design and to make the website responsive.
+### Balsamiq
+* Balsamiq was used to create the wireframes during the design process.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+# Testing
+## Functionality Testing
+### Manual testing
+* I used Google Chrome developer tools throughout the development process for testing and solving problems with style and display issues.
+* I used Github Project and Issues to track tasks. After each task completion, I would fully test it before moving on to the next task.
+* All links were tested multiple times during the development process and again once the project was completed to ensure that all pages were linked correctly.
+* All Forms and form elements were tested to ensure that they work as they should, with user feedback on errors as well as user feedback on successful submission.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
