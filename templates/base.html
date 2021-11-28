@@ -47,6 +47,10 @@
             {% endif %}>
             <a class="nav-link" href="{% url 'service_booking' %}">Book Service</a>
           </li>
+          <li {% if 'case_study' == request.path %} class="nav-item active mr-3" {% else %} class="nav-item mr-3"
+          {% endif %}>
+          <a class="nav-link" href="{% url 'case_study' %}">Case Studies</a>
+        </li>
           {% if user.is_authenticated %}
           <li class='nav-item px-2'>
             <a class="nav-link" href="{% url 'customer' %}">My Profile</a>
