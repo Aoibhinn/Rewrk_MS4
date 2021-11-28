@@ -23,6 +23,22 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 
 # Table of Contents
 1. [UX](https://github.com/Aoibhinn/Rewrk_MS4#ux)
+* [Website owner goals](https://github.com/Aoibhinn/Rewrk_MS4#website-owner-business-goals)
+    * [User stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
+    * [Wireframes](https://github.com/Aoibhinn/Rewrk_MS4#wireframes)
+2. [Features](https://github.com/Aoibhinn/Rewrk_MS4#features)
+3. [Database Schema](https://github.com/Aoibhinn/Rewrk_MS4#database-schema)
+4. [Technologies Used](https://github.com/Aoibhinn/Rewrk_MS4#technologies-used)
+5. [Testing](https://github.com/Aoibhinn/Rewrk_MS4#testing)
+    * [Functionality testing](https://github.com/Aoibhinn/Rewrk_MS4#functionality-testing)
+    * [Code Validation](https://github.com/Aoibhinn/Rewrk_MS4#code-validation)
+    * [Compatibility testing](https://github.com/Aoibhinn/Rewrk_MS4#compatibility-testing)
+    * [Performance testing](https://github.com/Aoibhinn/Rewrk_MS4#performance-testing)
+    * [User stories testing](https://github.com/Aoibhinn/Rewrk_MS4#user-stories-testing)
+    * [Known bugs](https://github.com/Aoibhinn/Rewrk_MS4#known-bugs)
+6. [Deployment](https://github.com/Aoibhinn/Rewrk_MS4#deployment)
+7. [Credits](https://github.com/Aoibhinn/Rewrk_MS4#credits)
+8. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
 
 # UX
