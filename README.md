@@ -102,6 +102,8 @@ Sans-Serif is used as the main font. I did not feel it necessary to change the d
 ### Images
 Images were sourced from canva.com
 
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
+
 
 # Features
 ## Existing Features
@@ -119,6 +121,8 @@ Images were sourced from canva.com
    * If the user clicks on a specific service they can view the full description of the service information. At the bottom of the service detail page is a link to the service booking page.
 <img src="media/images/all_services_ui.png">
 <img src="media/images/service_detail_ui.png">
+
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
   
 
 ### Booking form
@@ -156,6 +160,8 @@ Images were sourced from canva.com
 ### Balsamiq
 * Balsamiq was used to create the wireframes during the design process.
 
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
+
 # Testing
 ## Functionality Testing
 ### Manual testing
@@ -186,6 +192,7 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
 * The website was tested on Google Chrome, and apple cellphones.
 * The website was viewed on a variety of device sizes such as Desktop, Iphone11, I also used the responsive function when inspecting the pages to view various sizes. 
 
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 ## User Stories testing
 ### As a new user:
@@ -208,7 +215,6 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
     * Users can register using the register link.
     <img src="media/images/register.png">
 
-
 ### As an Admin user:
 
 1. I would like to be able to add draft services so that I can finish writing the content later.
@@ -225,6 +231,8 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
     * The navigation bar is displayed at the top of all pages for easy navigation and access.
 
     <img src="media/images/logged_out.png">
+
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
@@ -270,19 +278,20 @@ Before creating a Heroku app make sure your project has these two files:
 
 4. Remove the Postgres database URL from settings.py as this should not in any case be deployed to GitHub for security reasons.
 
-6. To connect your Heroku app to be deployed from a Github repository, you can follow these steps:
+5. To connect your Heroku app to be deployed from a Github repository, you can follow these steps:
 
     * Open the heroku app page on the deploy tab and select GitHub - Connect to GitHub.
     * Sign into GitHub if not already.
     * A prompt to find a Github repository to connect to will then be displayed.
     * Enter the repository name for the project and click search.
     * Once the repository has been found, click the connect button.
+    
 6. Once you have your GitHub repository connected, without leaving deploy tab:
 
     * Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button.
     * To deploy your app to Heroku click the "Deploy Branch" button.
 
-
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 
 
