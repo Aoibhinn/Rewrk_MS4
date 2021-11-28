@@ -23,9 +23,9 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 
 # Table of Contents
 1. [UX](https://github.com/Aoibhinn/Rewrk_MS4#ux)
-* [Website owner goals](https://github.com/Aoibhinn/Rewrk_MS4#website-owner-business-goals)
-    * [User stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
-    * [Wireframes](https://github.com/Aoibhinn/Rewrk_MS4#wireframes)
+   * [Website owner goals](https://github.com/Aoibhinn/Rewrk_MS4#website-owner-business-goals)
+   * [User stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
+   * [Wireframes](https://github.com/Aoibhinn/Rewrk_MS4#wireframes)
 2. [Features](https://github.com/Aoibhinn/Rewrk_MS4#features)
 3. [Database Schema](https://github.com/Aoibhinn/Rewrk_MS4#database-schema)
 4. [Technologies Used](https://github.com/Aoibhinn/Rewrk_MS4#technologies-used)
@@ -78,7 +78,7 @@ Wireframes were not created for the Service, ServiceDetail, Login  pages as the 
 <img src="media/images/service_booking.png" >
 
 * login
-<img src="/workspace/Rewrk_MS4/media/images/login.png" >
+<img src="media/images/login.png" >
 
 * create account
 <img src="media/images/create_an_account.png">
