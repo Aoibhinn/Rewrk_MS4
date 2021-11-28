@@ -11,5 +11,3 @@ class BookingForm(forms.Form):
     service = forms.ModelChoiceField(
         queryset=Service.objects.filter(status=1), initial=0)
     date = forms.DateField(widget=forms.TextInput(attrs={'type': 'date'}))                   
-    additional_information = forms.CharField(
-        widget=forms.Textarea, required=False)

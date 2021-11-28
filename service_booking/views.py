@@ -15,7 +15,6 @@ def booking(request):
         if form.is_valid():
             subject = "Booking Request"
             body = {
-                'message': form.cleaned_data['additional_information'],
                 'first_name': form.cleaned_data['first_name'],
                 'last_name': form.cleaned_data['last_name'],
                 'email': form.cleaned_data['email_address'],

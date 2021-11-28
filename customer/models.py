@@ -17,6 +17,3 @@ class ServiceBooking(models.Model):
     def __str__(self):
         return str(self.user)
 
-    def get_absolute_url(self):
-        """URL to return to on edit"""
-        return reverse('customer_booking')
