@@ -110,7 +110,7 @@ Images were sourced from canva.com
 ### Case Studies
 * This page show cases previous project Rewrk have worked on and the customer success stories.
 * A user can select individual case studies to read about projects.
-<img src="media/images/book_service.png">
+<img src="media/images/case_study_view.png">
 
 ## Future features
 * A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
@@ -181,9 +181,89 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
     <img src="media/images/case_study_view.png">
     <img src="media/images/case_study_detail.png">
 
-2. I want to book one of Rewkrs services
+3. I want to book one of Rewkrs services
     * Users can leave their details via Rewkrs service booking form for a member of the team to get back to them.
     <img src="media/images/book_service.png">
+
+4. I want to register on the website
+    * Users can register using the register link.
+    <img src="media/images/register.png">
+
+
+### As an Admin user:
+
+1. I would like to be able to add draft services so that I can finish writing the content later.
+    * The website owner can add a draft service which will not be published to the site until the status is changed to published.
+
+    <img src="media/images/draft.png">
+
+2. I would like to manage Rewrks case studies 
+    * The admin panel allows the website owner to amend and update case studies.
+
+    <img src="media/images/case_study.png">
+
+3. I want my visitors to be able to navigate my website intuitively and easily.
+    * The navigation bar is displayed at the top of all pages for easy navigation and access.
+
+    <img src="media/images/logged_out.png">
+
+# Deployment
+The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
+
+### Deployment to Heroku
+Before creating a Heroku app make sure your project has these two files:
+
+* requirements.txt - You can create one by using <code>pip3 freeze --local > requirements.txt</code>
+* Procfile - You can create one by using echo web: <code>python run.py > Procfile</code>
+
+### Create application:
+
+1. Navigate to Heroku's site <a href="https://id.heroku.com/login" target="_blank" rel="noopener">here</a>. (Note: Right click on link to open a new tab).
+2. Register and/or Login as applicable.
+3. Click on the new button in the top right and select "Create new app".
+4. Enter the app name and region closest to you.
+5. Click the create app button.
+
+### Set environment variables:
+
+1. Click on the settings tab and then click "Reveal config vars".
+
+2. Config variables added throughout project:
+(add image of variables)
+
+### Setting up database in deployment
+
+1. Temporarily add the <code>DATABASE_URL</code> to <code>settings.py</code>:
+
+    <code>DATABASES = {
+'default': dj_database_url.parse('your_postgres_database_url')
+}</code>
+
+2. Migrate the data from development to production version.
+
+    * To migrate the database models in the project to the Postgres database you can use the following command:
+
+    <code>python3 manage.py migrate</code>
+
+3. You will then need a superuser for the Postgres database too. To create one you can use the following command:
+
+    <code>python3 manage.py createsuperuser</code>
+
+4. Remove the Postgres database URL from settings.py as this should not in any case be deployed to GitHub for security reasons.
+
+6. To connect your Heroku app to be deployed from a Github repository, you can follow these steps:
+
+    * Open the heroku app page on the deploy tab and select GitHub - Connect to GitHub.
+    * Sign into GitHub if not already.
+    * A prompt to find a Github repository to connect to will then be displayed.
+    * Enter the repository name for the project and click search.
+    * Once the repository has been found, click the connect button.
+6. Once you have your GitHub repository connected, without leaving deploy tab:
+
+    * Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button.
+    * To deploy your app to Heroku click the "Deploy Branch" button.
+
+
 
 
 
