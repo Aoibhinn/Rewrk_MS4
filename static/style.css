@@ -4,11 +4,21 @@ h1, h3, .text-services, .text-services {
   color: #003060;
 }
 
+footer{
+  background-color: #003060;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #003060;
   border-color: #003060;
 }
+
+a {
+  color: #003060;
+  text-decoration: underline;
+}
+
 
 .btn-secondary {
     color: #fff !important; }
