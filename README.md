@@ -50,22 +50,22 @@ I used Balsamiq to create the wireframes.
 Wireframes were not created for the Service, ServiceDetail, Login  pages as the basic design is similar to other form styled pages.
 
 * Home page 
-<img src="/workspace/Rewrk_MS4/media/images/All Services:Home.png" >
+<img src="media/images/All Services:Home.png" >
 
 * service detail
-<img src="/workspace/Rewrk_MS4/media/images/service_detail.png" >
+<img src="media/images/service_detail.png" >
 
 * service booking
-<img src="/workspace/Rewrk_MS4/media/images/service_booking.png" >
+<img src="media/images/service_booking.png" >
 
 * login
 <img src="/workspace/Rewrk_MS4/media/images/login.png" >
 
 * create account
-<img src="/workspace/Rewrk_MS4/media/images/create_an_account.png">
+<img src="media/images/create_an_account.png">
 
 * Home page mobile view
-<img src="/workspace/Rewrk_MS4/media/images/All_services_mobile.png">
+<img src="media/images/All_services_mobile.png">
 
 
 
@@ -91,7 +91,7 @@ Images were sourced from canva.com
    * If the user is not logged in then there are three additional links available available (Register and Login).
    * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their Profile.
    * A confirmation message displays when the user logs in or logs out.
-<img src="/workspace/Rewrk_MS4/media/images/logged_in.png">
+<img src="media/images/logged_in.png">
 <img src="/workspace/Rewrk_MS4/media/images/logged_out.png">
 
 
@@ -100,14 +100,14 @@ Images were sourced from canva.com
 ### Available Service section
    * On the home page the available services are displayed, with the price.
    * If the user clicks on a specific service they can view the full description of the service information. At the bottom of the service detail page is a link to the service booking page.
-<img src="/workspace/Rewrk_MS4/media/images/all_services_ui.png">
-<img src="/workspace/Rewrk_MS4/media/images/service_detail_ui.png">
+<img src="media/images/all_services_ui.png">
+<img src="media/images/service_detail_ui.png">
   
 
 ### Booking form
 * This page invites the user to submit their interest in booking a specific service.
 * On submission of the form the user is provided with a confirmation message.
-<img src="/workspace/Rewrk_MS4/media/images/book_service.png">
+<img src="media/images/book_service.png">
 
 ## Future features
 * A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
@@ -118,7 +118,7 @@ Images were sourced from canva.com
 * Django's user and admin model was utilised.
 
 ### Service app
-<img src="/workspace/Rewrk_MS4/media/images/service_model.png">
+<img src="media/images/service_model.png">
 
 # Technologies Used:
 ### Programming Languages:
