@@ -93,8 +93,6 @@ Images were sourced from canva.com
    * A confirmation message displays when the user logs in or logs out.
 <img src="media/images/logged_in.png">
 <img src="media/images/logged_out.png">
-
-
  
     
 ### Available Service section
@@ -109,9 +107,14 @@ Images were sourced from canva.com
 * On submission of the form the user is provided with a confirmation message.
 <img src="media/images/book_service.png">
 
+### Case Studies
+* This page show cases previous project Rewrk have worked on and the customer success stories.
+* A user can select individual case studies to read about projects.
+<img src="media/images/book_service.png">
+
 ## Future features
 * A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
-
+* View previous bookings from profile page and update customer details
 
 # Database Schema
 ### User Profile model
@@ -134,7 +137,6 @@ Images were sourced from canva.com
 ### Balsamiq
 * Balsamiq was used to create the wireframes during the design process.
 
-
 # Testing
 ## Functionality Testing
 ### Manual testing
@@ -142,4 +144,35 @@ Images were sourced from canva.com
 * I used Github Project and Issues to track tasks. After each task completion, I would fully test it before moving on to the next task.
 * All links were tested multiple times during the development process and again once the project was completed to ensure that all pages were linked correctly.
 * All Forms and form elements were tested to ensure that they work as they should, with user feedback on errors as well as user feedback on successful submission.
+
+## Code Validation
+
+### CSS Validation using W3C CSS Validator Services.
+No errors were found in the style.css
+
+## Code Validation
+**1. CSS Validation using <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">W3C CSS Validator Services</a>.**
+
+No errors were found in the style.css
+<img src="media/images/Screenshot 2021-11-28 at 11.38.40.png">
+
+
+**2. <a href="http://pep8online.com/">PEP8</a> was used to test the Python code**
+
+All Python files were tested with PEP8, with no errors found.
+There were some pylint errors in gitpod regarding missing docstrings, these errors were fixed during development.
+
+
+## Compatibility Testing
+* The website was tested on Google Chrome, and apple cellphones.
+* The website was viewed on a variety of device sizes such as Desktop, Iphone11, I also used the responsive function when inspecting the pages to view various sizes. 
+
+
+## User Stories testing
+### As a new user:
+1. I want to find information about the various services.
+    * Users can do this on the home page, if they want more detailed information they can click on the service they are interested in and find more information.
+
+    <img src="media/images/all_services_ui.png">
+    <img src="/workspace/Rewrk_MS4/media/images/service_detail_ui.png">
 

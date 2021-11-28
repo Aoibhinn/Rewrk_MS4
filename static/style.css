@@ -4,9 +4,10 @@ h1, h3, .text-services, .text-services {
   color: #003060;
 }
 
-footer{
-  background-color: #003060;
+.navbar-light .navbar-nav .nav-link {
+  color: #003060;
 }
+
 
 .btn-primary {
   color: #fff;
@@ -58,7 +59,10 @@ a {
   
   footer{
     margin-top: auto;
+    background-color: #003060;
   }
+
+
   
   @media (max-width: 991px) {
     #showcase {
