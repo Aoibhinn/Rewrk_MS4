@@ -62,7 +62,7 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 * I would like to view the services I have registered for.
 * I would like to be able to edit and delete services I have registered for.
 
-[Back to Table of Contents]
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 ## Wireframes
 I used Balsamiq to create the wireframes.
