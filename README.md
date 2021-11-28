@@ -13,6 +13,8 @@ This combined with an intuitive interface aims to deliver a smooth and enjoyable
 
 The live site can be found <a href="https://rewrk-ms4.herokuapp.com/" target="_blank" rel="noopener">here</a>. (Note: Right click on link to open a new tab).
 
+
+
 # Strategy 
 
 During the pandemic a lot of local businesses were forced to close their doors for months. Prior to this many businesses did not have e-commerce websites or even social media accounts and when they were forced to close they were unable to reach any of their customers. 
@@ -20,6 +22,7 @@ During the pandemic a lot of local businesses were forced to close their doors f
 Rewkrs aim is to provide these businesses with access to digital services at reasonable prices. Many web development companies charge high prices that can be out of reach to local, small businesses. Rewkrs aim is not only to create a digital presence for the business but also to educate business owners on how to continue to grow their business online long after working with Rewrk by creating a community that receives monthly emails from Rewrk. 
 
 # Table of Contents
+1. [UX](https://github.com/Aoibhinn/Rewrk_MS4#ux)
 
 
 # UX
