@@ -37,8 +37,7 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
     * [User stories testing](https://github.com/Aoibhinn/Rewrk_MS4#user-stories-testing)
     * [Known bugs](https://github.com/Aoibhinn/Rewrk_MS4#known-bugs)
 6. [Deployment](https://github.com/Aoibhinn/Rewrk_MS4#deployment)
-7. [Credits](https://github.com/Aoibhinn/Rewrk_MS4#credits)
-8. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
+7. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
 
 # UX
