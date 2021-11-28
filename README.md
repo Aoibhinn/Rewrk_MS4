@@ -1,7 +1,7 @@
 # Rewrk
 
 ## Project 4 - Full Stack Toolkit
-<img src="/workspace/Rewrk_MS4/media/images/home.png">
+<img src="media/images/home.png">
 
 # Overview
 
