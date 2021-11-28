@@ -285,7 +285,7 @@ Before creating a Heroku app make sure your project has these two files:
     * A prompt to find a Github repository to connect to will then be displayed.
     * Enter the repository name for the project and click search.
     * Once the repository has been found, click the connect button.
-    
+
 6. Once you have your GitHub repository connected, without leaving deploy tab:
 
     * Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button.
@@ -293,5 +293,12 @@ Before creating a Heroku app make sure your project has these two files:
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
+## Acknowledgements
+* My mentor for support, advice and feedback.
+* The students on Slack for peer review and comments.
+* Code Institute Tutor support for help with coding issues.
+* My family and friends for their support, feedback and testing.
+
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 
