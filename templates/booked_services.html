@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% load crispy_forms_tags %}
 
 {% block content %}
 <div class="container">
@@ -14,7 +13,7 @@
       </div>
   </div>
 </div>
-<h2 class="text-center mt-5">Your Service Bookings</h2>
+<h2 class="text-center mt-5">Your bookings</h2>
 <!--View booked courses-->
 <div class="container d-flex justify-content-center">
     <div class="row col-8">
@@ -22,29 +21,26 @@
             <thead>
                 <tr>
                     <th scope="col">Date</th>
-                    <th scope="col">Service</th>
+                    <th scope="col">Course</th>
                     <th scope="col"></th>
                     <th scope="col"></th>
                 </tr>
             </thead>
-            {% for servicebooking in servicebookings %}
+            {% for booking in booking_list %}
             <tbody>
                 <tr>
-                    <td> {{ servicebooking.booking_date }} </td>
-                    <td> {{ servicebooking.service_name }} </td>
-					<td> {{ user.username }} </td>
-                    <td><a href="{#}"><small>Edit</small></a></td>
-                    <td><a href="{#}"><small>Delete</small></a></td>
+                    <td> {{ booking.booking_date }} </td>
+                    <td> {{ booking.service_name }} </td>
                 </tr>
             </tbody>
             {% empty %}
-                <p class="text-center" style="color:red"><em><strong>You have no booked services. Click on the link below to add a booking.</strong></em></p>
+                <p class="text-center" style="color:red"><em><strong>You have no booked courses. Click on the link below to add a booking.</strong></em></p>
             {% endfor %}
         </table>
     </div>
 </div>
 <div class="text-center">
-    <h5 class="mt-4"><a href="{% url 'service_booking' %}"><u>Click here to add a new booking</u></a></h5>
+    <h5 class="mt-4"><a href="{#}"><u>Click here to add a new booking</u></a></h5>
 </div>
 
 {% endblock content%}

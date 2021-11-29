@@ -3,10 +3,9 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 from service.models import Service
 
-
-class ServiceBooking(models.Model):
+class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    service_name  = models.ForeignKey(
+    service_name = models.ForeignKey(
         Service, on_delete=models.CASCADE, limit_choices_to={'status': '1'})
     booking_date = models.DateField(unique=True)
 
@@ -16,4 +15,3 @@ class ServiceBooking(models.Model):
 
     def __str__(self):
         return str(self.user)
-
