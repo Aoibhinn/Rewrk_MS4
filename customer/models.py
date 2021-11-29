@@ -8,6 +8,8 @@ class Booking(models.Model):
     service_name = models.ForeignKey(
         Service, on_delete=models.CASCADE, limit_choices_to={'status': '1'})
     booking_date = models.DateField(unique=True)
+    price = models.DecimalField(max_digits=5, decimal_places=2)
+
 
     class Meta:
         """Class for ordering"""
