@@ -43,23 +43,23 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 # UX
 ## Website owner business goals
 * I want my visitors to be able to navigate my website intuitively and easily.
-* I would like the website to be interesting for visitors.
-* I would like to build and maintain relationships with potential and current visitors.
-* I would like to manage the information about the various services.
+* I would like the website to be informative for visitors.
+* I would like to manage the information about the our services.
 * I would like to be able to add draft services so that I can finish writing the content later.
-* I would like to manage customer case studies about past projects we have worked on
+* I would like to edit and update client case studies.
 * I would like to be able to add draft case studies so that I can finish writing the content later.
+* I would like to add bookings to my customer's profile so they can keep of track of what they have booked.
+* I would like to collect the details of customers who are intrested in our services.
 
 ## User Stories
 ### New user goals:
-* I want to find information about the various services.
-* I want to read information about past projects.
-* I want to register on the website.
+* I want to find information about Rewrks services
+* I want to read case studies about past project.
+* I want to book a service with Rewrk.
 ### Returning user goals:
 * I would like to view the available services.
 * I would like to be able to book a services.
-* I would like to view the services I have registered for.
-* I would like to be able to edit and delete services I have registered for.
+* I would like to view booked services on my profile.
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
@@ -85,15 +85,13 @@ Wireframes were not created for the Service, ServiceDetail, Login  pages as the 
 * Home page mobile view
 <img src="media/images/All_services_mobile.png">
 
-
-
-[Back to Table of Contents]
+[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 ## Design
 ### Colors
 The main colors used in this project:
-* Background color: #4C6FBF blue
-* Font color: Black #003060; navy
+* Font and Accent color: #4C6FBF blue
+* Background color: Black #003060; navy
 
 ### Fonts
 Sans-Serif is used as the main font. I did not feel it necessary to change the default font type as Sans-Serif is an easy font to read and displays well throughout the site.
@@ -103,31 +101,32 @@ Images were sourced from canva.com
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
-
 # Features
 ## Existing Features
 ### Navigation Bar
-   * Featured on all pages is a fully responsive navigation bar that has links to all pages (Home, All Services, Book Service and Profile).
-   * If the user is not logged in then there are three additional links available available (Register and Login).
-   * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their Profile.
-   * A confirmation message displays when the user logs in or logs out.
+   * Featured on all pages is a fully responsive navigation bar that has links to all pages (Home, All Services, Book Service and My Bookings).
+   * If the user is not logged in then there are two additional links available available (Register and Login).
+   * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their bookings.
+   * A confirmation message displays when the user logs in.
 <img src="media/images/logged_in.png">
 <img src="media/images/logged_out.png">
- 
-    
+
+### Footer
+   * Featured on all pages is a fully responsive footer that has links to all pages (All Services, Book Service, Case studies and Profile).
+   * If the user is logged in then a link to their profile will be available.
+<img src="media/images/Screenshot 2021-11-29 at 23.18.32.png">
+<img src="media/images/Screenshot 2021-11-29 at 23.18.24.png">
+
 ### Available Service section
-   * On the home page the available services are displayed, with the price.
+   * On the home page the available services and an excerpt is displayed.
    * If the user clicks on a specific service they can view the full description of the service information. At the bottom of the service detail page is a link to the service booking page.
 <img src="media/images/all_services_ui.png">
 <img src="media/images/service_detail_ui.png">
-
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
   
-
 ### Booking form
 * This page invites the user to submit their interest in booking a specific service.
 * On submission of the form the user is provided with a confirmation message.
-<img src="media/images/book_service.png">
+<img src="media/images/Screenshot 2021-11-29 at 23.22.46.png">
 
 ### Case Studies
 * This page show cases previous project Rewrk have worked on and the customer success stories.
@@ -136,7 +135,8 @@ Images were sourced from canva.com
 
 ## Future features
 * A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
-* View previous bookings from profile page and update customer details
+* Cancel and edit bookings from profile
+* Payment method 
 
 # Database Schema
 ### User Profile model
@@ -154,7 +154,7 @@ Images were sourced from canva.com
 * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 ### Github
 * GitHub was used to store the projects code after being pushed from Git.
-### Bootstrap 4
+### Bootstrap 5
 * Bootstrap was used to for design and to make the website responsive.
 ### Balsamiq
 * Balsamiq was used to create the wireframes during the design process.
@@ -194,7 +194,7 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 ## User Stories testing
-### As a new user:
+### As a customer/potential customer
 1. I want to find information about the various services.
     * Users can do this on the home page, if they want more detailed information they can click on the service they are interested in and find more information.
 
@@ -214,22 +214,24 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
     * Users can register using the register link.
     <img src="media/images/register.png">
 
+5. I was to view the services I have booked with Rewrk
+    * Users can register an account on Rewrk and an admin member can add bookings to their profiles
+    <img src="media/images/Screenshot 2021-11-29 at 23.28.45.png">
+
+
 ### As an Admin user:
 
 1. I would like to be able to add draft services so that I can finish writing the content later.
     * The website owner can add a draft service which will not be published to the site until the status is changed to published.
-
     <img src="media/images/draft.png">
 
 2. I would like to manage Rewrks case studies 
     * The admin panel allows the website owner to amend and update case studies.
-
     <img src="media/images/case_study.png">
 
-3. I want my visitors to be able to navigate my website intuitively and easily.
-    * The navigation bar is displayed at the top of all pages for easy navigation and access.
-
-    <img src="media/images/logged_out.png">
+3. I want to be able to add booked services to customer accounts
+    * The admin panel allows admin users to add bookings to customer registered accounts
+    <img src="media/images/Screenshot 2021-11-29 at 23.30.29.png">
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
