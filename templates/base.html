@@ -51,7 +51,7 @@
         </li>
           {% if user.is_authenticated %}
           <li class='nav-item px-2'>
-            <a class="nav-link" href="{% url 'booked_services' %}">My Profile</a>
+            <a class="nav-link" href="{% url 'booked_services' %}">My Bookings</a>
           </li>
           {% endif %}
         </ul>
@@ -99,8 +99,28 @@
         {% endblock content %}
     </main>
 
-    <footer class=" footer fixed-bottom mt-auto pt-2">
-      <p class="text-center text-white">Designed by Aoibhinn Mc Goona</p>
+    <footer class=" footer mt-auto pt-2">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">Designed by Aoibhinn Mc Goona</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="{% url 'home' %} class="nav-link px-2 text-muted">All Services</a></li>
+            <li class="nav-item"><a href="{% url 'service_booking' %}"class="nav-link px-2 text-muted">Book Service</a></li>
+            <li class="nav-item"><a href="{% url 'case_study' %}" class="nav-link px-2 text-muted">Case Studies</a></li>
+            {% if user.is_authenticated %}
+            <li class="nav-item"><a href="{% url 'booked_services' %}" class="nav-link px-2 text-muted">My Bookings</a></li>
+            {% endif %}
+
+          </ul>
+        </footer>
+      </div>
+        </footer>
+      </div>
   </footer>
 </body>
 </html>
