@@ -184,7 +184,6 @@ Images were sourced from canva.com
 
 ## Code Validation
 
-
 ## Code Validation
 **1. CSS Validation using <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">W3C CSS Validator Services</a>.**
 
