@@ -19,14 +19,6 @@ During the pandemic a lot of local businesses were forced to close their doors f
 
 Rewkrs aim is to provide these businesses with access to digital services at reasonable prices. Many web development companies charge high prices that can be out of reach to local, small businesses. Rewkrs aim is not only to create a digital presence for the business but also to educate business owners on how to continue to grow their business online long after working with Rewrk by creating a community that receives monthly emails from Rewrk. 
 
-# Logins
-* Admin Login
-    * Username: Admin
-    * Password: Password1@
-
-* Registered User
-    * Username: Test13
-    * Password: Password1@
 
 # Table of Contents
 1. [UX](https://github.com/Aoibhinn/Rewrk_MS4#ux)
