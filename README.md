@@ -248,8 +248,6 @@ There were some pylint errors in gitpod regarding missing docstrings, these erro
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
-## Known Bugs
-* Summernote was not working on service detail page 
 
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
