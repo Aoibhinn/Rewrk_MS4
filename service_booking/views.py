@@ -19,7 +19,6 @@ def booking(request):
                 'last_name': form.cleaned_data['last_name'],
                 'email': form.cleaned_data['email_address'],
                 'telephone': form.cleaned_data['telephone'],
-                'date': form.cleaned_data['date'],
                 'service': form.cleaned_data['service'],
             }
             message = '\n'.join(map(str, body.values()))
