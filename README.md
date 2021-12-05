@@ -155,6 +155,9 @@ Images were sourced from canva.com
 ### Case Study App
 <img src="media/images/case_study_app.png">
 
+### Customer app for viewing booked services
+<img src="media/images/customer_booking_app.png">
+
 # Technologies Used:
 ### Programming Languages:
 * CSS, HTML, Python, and Django.
