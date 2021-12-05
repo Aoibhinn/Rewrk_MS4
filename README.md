@@ -173,7 +173,6 @@ Images were sourced from canva.com
 * All links were tested multiple times during the development process and again once the project was completed to ensure that all pages were linked correctly.
 * All Forms and form elements were tested to ensure that they work as they should, with user feedback on errors as well as user feedback on successful submission.
 
-## Code Validation
 
 ## Code Validation
 **1. CSS Validation using <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">W3C CSS Validator Services</a>.**
