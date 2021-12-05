@@ -19,7 +19,7 @@ During the pandemic a lot of local businesses were forced to close their doors f
 
 Rewkrs aim is to provide these businesses with access to digital services at reasonable prices. Many web development companies charge high prices that can be out of reach to local, small businesses. Rewkrs aim is not only to create a digital presence for the business but also to educate business owners on how to continue to grow their business online long after working with Rewrk by creating a community that receives monthly emails from Rewrk. 
 
-# Strategy 
+# Logins
 * Admin Login
     * Username: Admin
     * Password: Password1@
@@ -149,8 +149,11 @@ Images were sourced from canva.com
 ### User Profile model
 * Django's user and admin model was utilised.
 
-### Service app
+### Service App
 <img src="media/images/service_model.png">
+
+### Case Study App
+<img src="media/images/case_study_app.png">
 
 # Technologies Used:
 ### Programming Languages:
@@ -265,7 +268,6 @@ Before creating a Heroku app make sure your project has these two files:
 ### Set environment variables:
 
 1. Click on the settings tab and then click "Reveal config vars".
-
 2. Config variables added throughout project:
 (add image of variables)
 
