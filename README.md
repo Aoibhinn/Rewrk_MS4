@@ -42,7 +42,6 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
     * [Compatibility testing](https://github.com/Aoibhinn/Rewrk_MS4#compatibility-testing)
     * [Performance testing](https://github.com/Aoibhinn/Rewrk_MS4#performance-testing)
     * [User stories testing](https://github.com/Aoibhinn/Rewrk_MS4#user-stories-testing)
-    * [Known bugs](https://github.com/Aoibhinn/Rewrk_MS4#known-bugs)
 6. [Deployment](https://github.com/Aoibhinn/Rewrk_MS4#deployment)
 7. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
