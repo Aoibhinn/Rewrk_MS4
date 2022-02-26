@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
 from .models import Booking
 from django.views import generic
+from django.views.generic import CreateView
 
 
 class BookingView(generic.ListView):
@@ -13,3 +13,5 @@ class BookingView(generic.ListView):
         user = self.request.user
         booking_list = Booking.objects.filter(user=user)
         return booking_list
+
+

@@ -1,13 +1,16 @@
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.contrib import messages
 from .forms import BookingForm
 
-# Create your views here.
-
 
 def booking(request):
+    """Booking app view for submission of form"""
     if request.method == 'GET':
         form = BookingForm()
     else:
@@ -22,12 +25,14 @@ def booking(request):
                 'service': form.cleaned_data['service'],
             }
             message = '\n'.join(map(str, body.values()))
-            messages.success(request, 'Message sent successfully!')
+            messages.success(request, 'Thank you for booking one of our Services.\
+                             A member of our team will be in\
+                                 touch with you shortly!')
             try:
                 send_mail(subject, message, 'hello@rewrk.com', [
                     'hello@rewrk.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
+
     form = BookingForm()
     return render(request, "booking.html", {'form': form})
-

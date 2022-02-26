@@ -1,10 +1,17 @@
+
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
+
 class Service(models.Model):
+    """
+    Models for Rewrks Available services
+    """
     service_name = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     employee = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -19,8 +26,8 @@ class Service(models.Model):
     id = models.AutoField(primary_key=True)
 
     class Meta:
+        """Class for ordering"""
         ordering = ["-created_on"]
 
     def __str__(self):
         return self.service_name
-
