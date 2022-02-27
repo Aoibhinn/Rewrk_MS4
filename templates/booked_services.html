@@ -33,7 +33,7 @@
                     <td> {{ booking.booking_date }} </td>
                     <td> {{ booking.service_name }} </td>
                     <td><a href="{#}"><small>Edit</small></a></td>
-                    <td><a href="{#}"><small>Delete</small></a></td>
+                    <td><a href="{% url 'delete_booking' booking.pk %}"><small>Delete</small></a></td>
                 </tr>
             </tbody>
             {% empty %}

@@ -3,7 +3,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 from django.views import generic
-from django.views.generic import CreateView
+from django.views.generic import CreateView, DeleteView
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from .models import Booking
@@ -33,3 +33,11 @@ class CreateBookingView(SuccessMessageMixin, CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(CreateBookingView, self).form_valid(form)
+
+
+class DeleteBooking(SuccessMessageMixin, DeleteView):
+    """Delete booking"""
+    model = Booking
+    template_name = 'delete_booking.html'
+    success_url = reverse_lazy('booked_services')
+    success_message = 'Booking deleted successfully!'
