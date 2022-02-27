@@ -46,25 +46,32 @@ Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  
 #### User Stories Steps 1
 1. Navigate to https://rewrk-ms4.herokuapp.com/service_booking/booking/
 2. Complete fields but leave telephone blank
-2. Complete fields but leave try to input a 'letter' instead of a number
-3. Complete all fields
-4. Click Submit
+3. Complete fields but leave try to input a 'letter' instead of a number
+4. Complete all fields
+5. Click Submit
 
 
 #### User Story Testing Results 1
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The external service booking form is displayed | [Desktop](readme/testing/external_booking_form_desktop.png)  | [Tablet](readme/testing/external_booking_form_tablet.png)  | [Mobile](readme/testing/external_booking_form_mobile.png)  |Passed |
-Step 2 | A notification appears asking user to 'Fill in this field' | [Desktop](readme/testing/external_booking_form_unfilled_fields_desktop.png)  | [Tablet](#)  | [Mobile](#)  |   |
-Step 3 | The user is prevented from adding a letter character to the telephone field | [Desktop](#)  | [Tablet](readme/testing/external_booking_form_unfilled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_unfilled_fields_mobile.png)  | Passed  |
-Step 4 | The user is able to complete all fields with their details | [Desktop](readme/testing/external_booking_form_filled_fields_desktop.png)  | [Tablet](readme/testing/external_booking_form_filled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_filled_fields_mobile.png)  | Passed |
-Step 5 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](readme/testing/external_booking_form_success_message_desktop.png)  | [Tablet](readme/testing/external_booking_form_success_message_tablet.png)  | [Mobile](readme/testing/external_booking_form_success_message_mobile.png)  | Passed |
+Step 2 | A notification appears asking user to 'Fill in this field' | [Desktop](readme/testing/external_booking_form_unfilled_fields_desktop.png)  | [Tablet](readme/testing/external_booking_form_unfilled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_unfilled_fields_mobile.png)  | Passed  |
+Step 3 | The user is able to complete all fields with their details | [Desktop](readme/testing/external_booking_form_filled_fields_desktop.png)  | [Tablet](readme/testing/external_booking_form_filled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_filled_fields_mobile.png)  | Passed |
+Step 4 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](readme/testing/external_booking_form_success_message_desktop.png)  | [Tablet](readme/testing/external_booking_form_success_message_tablet.png)  | [Mobile](readme/testing/external_booking_form_success_message_mobile.png)  | Passed |
 
-### Feature 2 Case Studies & Case Study Details
+### Feature 3 Case Studies & Case Study Details
 #### User Stories Steps 1
 1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/
-2. Select the first Case Study 'KPMG'
+2. Scroll down the case study page
+3. Select first case study 
+4. Log into 
 
+#### User Story Testing Results 1
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | The case study page is displayed with header text and published case studies | [Desktop](readme/testing/case_study_desktop.png)  | [Tablet](readme/testing/case_study_tablet.png)  | [Mobile](readme/testing/case_study_mobile.png)  | Passed |
+Step 2 | The case study page is pagniated and will display a next button when posts exceeds 6 | [Desktop](readme/testing/paginate_case_study_desktop.png)  | [Tablet](readme/testing/paginate_case_study_tablet.png)  | [Mobile](readme/testing/paginate_case_study_mobile.png)  | Passed |
+Step 3 | User is redirected to case study detail page to view title, time, author, content, comments, postcomment and like functionality | [Desktop](readme/testing/case_study_detail_desktop.png)  | [Tablet](readme/testing/case_study_detail_tablet.png)  | [Mobile](readme/testing/case_study_detail_mobile.png)  | Passed |
 
 
 ## HTML Markup Validation Service
