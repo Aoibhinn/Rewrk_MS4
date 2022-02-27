@@ -42,10 +42,17 @@
 					</div>
 				</div>
 
+				{% if user.is_authenticated %}
+				<form action="{% url 'create_booking' %}">
+					<input type="hidden" name="service">
+					<button class="btn btn-primary btn-block">Book Now</button>
+				</form>
+				{% else %}
                 <form action="{% url 'service_booking' %}">
 					<input type="hidden" name="service">
 					<button class="btn btn-primary btn-block">Book Now</button>
 				</form>
+				{% endif %}
 				<hr>
 			</div>
 		</div>

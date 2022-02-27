@@ -155,7 +155,6 @@ Step 7 | 'Leave a Comment' form is not available for logged out users  | [Deskto
 7. Select 'delete'
 8. Select 'delete booking'
 
-
 #### User Story Testing Results 5
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
@@ -167,6 +166,9 @@ Step 5 | User is redirected to the 'edit booking' page | [Desktop](readme/testin
 Step 6 | Updated booking with new date is displayed | [Desktop](readme/testing/successfully_updated_desktop.png)  | [Tablet](readme/testing/successfully_updated_tablet.png)  | [Mobile](readme/testing/successfully_updated_mobile.png)  | Passed |
 Step 7 | User is redirected to delete booking page with confirmation message | [Desktop](readme/testing/delete_booking_desktop.png)  | [Tablet](readme/testing/delete_booking_tablet.png)  | [Mobile](readme/testing/delete_booking_mobile.png)  | Passed |
 Step 8 | User is redirected back to booked services and services is deleted | [Desktop](readme/testing/deleted_booking_desktop.png)  | [Tablet](readme/testing/deleted_booking_tablet.png)  | [Mobile](readme/testing/deleted_booking_mobile.png)  | Passed |
+
+### Feature 5 My Bookings and Logged in Booking
+
 
 
 ## HTML Markup Validation Service
