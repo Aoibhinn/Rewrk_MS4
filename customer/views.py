@@ -3,7 +3,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 from django.views import generic
-from django.views.generic import CreateView, DeleteView
+from django.views.generic import CreateView, UpdateView, DeleteView
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from .models import Booking
@@ -41,3 +41,12 @@ class DeleteBooking(SuccessMessageMixin, DeleteView):
     template_name = 'delete_booking.html'
     success_url = reverse_lazy('booked_services')
     success_message = 'Booking deleted successfully!'
+
+
+class EditBooking(UpdateView):
+    """Edit booking view"""
+    model = Booking
+    form_class = CreateBookingForm
+    template_name = 'edit_booking.html'
+    success_url = reverse_lazy('booked_services')
+    success_message = 'Booking edited successfully!'
