@@ -21,7 +21,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['ci-ms4-rewrk.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['rewrk-ms4.herokuapp.com', 'localhost']
 
 
 # Application definition
