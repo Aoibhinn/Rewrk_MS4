@@ -42,3 +42,29 @@ Step 6 | My Bookings inlcudes table with services booked by customer | [Desktop]
 Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  | [Tablet](readme/testing/logout_tablet.png)  | [Mobile](readme/testing/logout_mobile.png) | Passed |
 
 
+
+## HTML Markup Validation Service
+I used https://validator.w3.org/ to validate the html files
+
+Page | Result | Test Detail/Screenshot
+------------ | ------------- | -------------
+bag/templates/bag/bag.html  | 0 errors and 0 contrast errors| [Results](readme/testing/bag_w3validation.png) 
+checkout/templates/checkout/checkout.html | 0 errors and 0 contrast errors| [Results](readme/testing/checkout_w3validation.png)  
+checkout/templates/checkout/checkout_success.html | 0 errors and 0 contrast errors| [Results](readme/testing/checkout_success_w3validation.png)  
+home/templates/home/index.html | 0 errors and 0 contrast errors| [Results](readme/testing/index_w3validation.png)
+products/templates/products/add_product.html | 0 errors and 0 contrast errors| [Results](readme/testing/add_product_w3validation.png)
+products/templates/products/edit_product.html | 0 errors and 0 contrast errors| [Results](readme/testing/add_product_w3validation.png)  
+products/templates/products/product_detail.html | 0 errors and 0 contrast errors| [Results](readme/testing/products_detail_w3validation.png) 
+products/templates/products/products.html | 0 errors and 0 contrast errors| [Results](readme/testing/products_w3validation.png)     
+profile/templates/profile/profile.html | 0 errors and 0 contrast errors| [Results](readme/testing/profile_w3validation.png)  
+profile/templates/profile/order_history.html | 0 errors and 0 contrast errors| [Results](readme/testing/order_history_w3validation.png)  
+templates/allauth/account/login.html | 0 errors and 0 contrast errors| [Results](readme/testing/login_w3validation.png)
+templates/allauth/account/logout.html | 0 errors and 0 contrast errors| [Results](readme/testing/logout_w3validation.png)
+templates/allauth/account/register.html | 0 errors and 0 contrast errors| [Results](readme/testing/registraion_w3validation.png) 
+templates/allauth/account/password_change.html | 0 errors and 0 contrast errors| [Results](readme/testing/forgot_password_w3validation.png)
+templates/allauth/account/password_reset.html | 0 errors and 0 contrast errors| [Results](readme/testing/reset_password_w3validation.png)
+templates/allauth/account/password_reset_done.html | 0 errors and 0 contrast errors| [Results](readme/testing/password_reset_done_w3validation.png)
+templates/allauth/account/verification_sent.html | 0 errors and 0 contrast errors| [Results](readme/testing/password_reset_sent_w3validation.pngg)
+<br>
+
+
