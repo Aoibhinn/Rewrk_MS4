@@ -21,6 +21,10 @@
       - [User Stories feature 5](#user-stories-feature-5)
       - [User Stories Steps 5](#user-stories-steps-5)
       - [User Story Testing Results 5](#user-story-testing-results-5)
+    + [Feature 6 Services and Service Detail](#feature-6-services-and-service-detail)
+      - [User Stories feature 5](#user-stories-feature-5)
+      - [User Stories Steps 5](#user-stories-steps-5)
+      - [User Story Testing Results 5](#user-story-testing-results-5)
 
      
 
@@ -167,7 +171,27 @@ Step 6 | Updated booking with new date is displayed | [Desktop](readme/testing/s
 Step 7 | User is redirected to delete booking page with confirmation message | [Desktop](readme/testing/delete_booking_desktop.png)  | [Tablet](readme/testing/delete_booking_tablet.png)  | [Mobile](readme/testing/delete_booking_mobile.png)  | Passed |
 Step 8 | User is redirected back to booked services and services is deleted | [Desktop](readme/testing/deleted_booking_desktop.png)  | [Tablet](readme/testing/deleted_booking_tablet.png)  | [Mobile](readme/testing/deleted_booking_mobile.png)  | Passed |
 
-### Feature 5 My Bookings and Logged in Booking
+### Feature 6 Services and Service Detail
+
+### User Stories feature 5
+* User Story 6.1: As a normal/logged in user I want to be able to view all service rewrk has available
+* User Story 6.2: As a normal/logged in user I want to be able to view the details and price of an available service
+* User Story 6.2: As a normal I want to be able to book a service without having to create an account with rewrk
+* User Story 6.4: As a logged in user I want to be able to create a booking from a service and be redirected back to 'my bookings' tab
+
+#### User Stories Steps 6
+1. As a not logged in user navigate to https://rewrk-ms4.herokuapp.com and scroll down to 'Our Services'
+2. As a not logged in user select the first service 'learn more' button
+3. As a not logged in user select 'book now'
+4. As a logged in user go to https://rewrk-ms4.herokuapp.com/marketing-workshops and click 'book now'
+
+#### User Story Testing Results 6
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | User is presented with all available services | [Desktop](readme/testing/my_bookings_desktop.png)  | [Tablet](readme/testing/my_bookings_tablet.png)  | [Mobile](readme/testing/my_bookings_mobile.png)  | Passed |
+Step 2 | User is presented with the details of the service including the price | [Desktop](readme/testing/service_detail_desktop.png)  | [Tablet](readme/testing/service_detail_tablet.png)  | [Mobile](readme/testing/service_detail_mobile.png)  | Passed |
+Step 3 | User is redirected to the external service booking form | [Desktop](readme/testing/external_booking_form_desktop.png)  | [Tablet](readme/testing/external_booking_form_tablet.png)  | [Mobile](readme/testing/external_booking_form_mobile.png)  | Passed |
+Step 4 | As a logged in user you are redirected to the 'create booking' form for logged in users | [Desktop](readme/testing/create_booking_desktop.png)  | [Tablet](readme/testing/create_booking_tablet.png)  | [Mobile](readme/testing/create_booking_mobile.png)  | Passed |
 
 
 
