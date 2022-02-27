@@ -1,6 +1,8 @@
-
-
-h1, h3, h2, .text-services, .text-services {
+h1,
+h3,
+h2,
+.text-services,
+.text-services {
   color: #003060;
 }
 
@@ -20,72 +22,100 @@ a {
   text-decoration: underline;
 }
 
-
 .btn-secondary {
-    color: #fff !important; }
+  color: #fff !important;
+}
 
-  img {
-    width: 100%; }
-  
-  .logo {
-    width: 80px; }
-  
-  .navbar {
-    text-transform: uppercase; }
-  
-  .social a {
-    margin-right: 0.4rem; }
+img {
+  width: 100%;
+}
 
-  
-  #services {
-    min-height: 200px;
-    position: relative;
-    overflow: hidden; }
-  
-  #services::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 100%;
-      width: 100%;
-      background: #2f3542; }
+.logo {
+  width: 70px;
+}
 
- 
-  .listing-preview a {
-    position: relative; }
-  
+.navbar {
+  text-transform: uppercase;
+  background-color: #fff;
+}
 
-  
-  footer{
-    margin-top: auto;
-    background-color: #003060;
+.social a {
+  margin-right: 0.4rem;
+}
+
+
+#services {
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+#services::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  background: #2f3542;
+}
+
+
+.listing-preview a {
+  position: relative;
+}
+
+
+
+footer {
+  margin-top: auto;
+  background-color: #003060;
+}
+
+
+
+@media (max-width: 991px) {
+  #showcase {
+    padding-top: 4rem;
   }
 
+  #showcase h1 {
+    font-size: 40px;
+  }
 
-  
-  @media (max-width: 991px) {
-    #showcase {
-      padding-top: 4rem; }
-      #showcase h1 {
-        font-size: 40px; }
-    .hide-md-down {
-      display: none; } }
-  
-  @media (max-width: 768px) {
-    #showcase {
-      padding-top: 3rem; }
-      #showcase h1 {
-        font-size: 40px; }
-      #showcase p {
-        display: none; }
-    #top-bar {
-      text-align: center; }
-      #top-bar .social {
-        text-align: center !important; } }
-  
-  @media (max-width: 576px) {
-    #showcase h1 {
-      font-size: 30px; }
-    #showcase-inner h1 {
-      font-size: 40px; } }
+  .hide-md-down {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    padding-top: 3rem;
+  }
+
+  #showcase h1 {
+    font-size: 40px;
+  }
+
+  #showcase p {
+    display: none;
+  }
+
+  #top-bar {
+    text-align: center;
+  }
+
+  #top-bar .social {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px;
+  }
+
+  #showcase-inner h1 {
+    font-size: 40px;
+  }
+}
