@@ -13,6 +13,9 @@
     + [Feature 4 Comments & Likes for Case Study Details](#feature-4-comments-&-likes-for-case-study-details)
       - [User Stories Steps 1](#user-stories-steps-1)
       - [User Story Testing Results 1](#user-story-testing-results-1)
+    + [Feature 5 My Bookings and Logged in Booking](#feature-5-my-bookings-and-logged-in-booking)
+      - [User Stories Steps 1](#user-stories-steps-1)
+      - [User Story Testing Results 1](#user-story-testing-results-1)
 
      
 
@@ -91,6 +94,7 @@ Step 3 | User is redirected to case study detail page to view title, time, autho
 6. As an admin select test comment
 7. Navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/
 8. Log out and navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/ 
+
 #### User Story Testing Results 1
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
@@ -98,9 +102,34 @@ Step 1 | The user is able to view comments, like and leave a comment under the c
 Step 2 | The user is able to input a comment in the 'Leave a Comment' form | [Desktop](readme/testing/input_comment_desktop.png)  | [Tablet](readme/testing/input_comment_tablet.png)  | [Mobile](readme/testing/input_comment_mobile.png)  | Passed |
 Step 3 | A success message is displayed notifying the user their comment is awaiting approval | [Desktop](readme/testing/comment_awaiting_approval_desktop.png)  | [Tablet](readme/testing/comments_likes_tablet.png)  | [Mobile](readme/testing/comments_likes_mobile.png)  | Passed |
 Step 4 | The heart icon is filled and the counter is changed to 1 | [Desktop](readme/testing/like_case_study_desktop.png)  | [Tablet](readme/testing/like_case_study_tablet.png)  | [Mobile](readme/testing/like_case_study_mobile.png)  | Passed |
-Step 5 | Admin can view comments | [Desktop](readme/testing/admin_comments.png) | Passed |
+Step 5 | Admin can view comments | [Desktop](readme/testing/admin_comments.png) |   |   | Passed |
 Step 6 | User is able to view approved comment | [Desktop](readme/testing/approved_comment_desktop.png)  | [Tablet](readme/testing/approved_comment_tablet.png)  | [Mobile](readme/testing/approved_comment_mobile.png)  | Passed |
 Step 7 | 'Leave a Comment' form is not available for logged out users  | [Desktop](readme/testing/logged_out_comment_form_desktop.png)  | [Tablet](readme/testing/logged_out_comment_form_tablet.png)  | [Mobile](readme/testing/logged_out_comment_form_mobile.png)  | Passed |
+
+
+### Feature 5 My Bookings and Logged in Booking
+#### User Stories Steps 1
+1. As a logged in user navigate to https://rewrk-ms4.herokuapp.com/customer/ no bookings
+2. Select 'Click here to book a new service'
+3. Select a 'Booking Date' and 'Service'
+4. Select 'submit'
+5. Select 'edit'
+6. From the calender dropdown chose a new date and select 'Update'
+7. Select 'delete'
+8. Select 'delete booking'
+
+
+#### User Story Testing Results 1
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | User is presented with booking table and message notifying them they have no bookings | [Desktop](readme/testing/my_bookings_desktop.png)  | [Tablet](readme/testing/my_bookings_tablet.png)  | [Mobile](readme/testing/my_bookings_mobile.png)  | Passed |
+Step 2 | User is redirected to a create booking page | [Desktop](readme/testing/create_booking_desktop.png)  | [Tablet](readme/testing/my_bookings_tablet.png)  | [Mobile](readme/testing/my_bookings_mobile.png)  | Passed |
+Step 3 | User can select date and service from the date and dropdown box | [Desktop](readme/testing/complete_create_booking_desktop.png)  | [Tablet](readme/testing/complete_create_booking_tablet.png)  | [Mobile](readme/testing/complete_create_booking_mobile.png)  | Passed |
+Step 4 | The selected service and date are displayed in the table along with a success message | [Desktop](readme/testing/success_booked_service_desktop.png)  | [Tablet](readme/testing/success_booked_service_tablet.png)  | [Mobile](readme/testing/success_booked_service_mobile.png)  | Passed |
+Step 5 | User is redirected to the 'edit booking' page | [Desktop](readme/testing/edit_booking_desktop.png)  | [Tablet](readme/testing/edit_booking_tablet.png)  | [Mobile](readme/testing/edit_booking_mobile.png)  | Passed |
+Step 6 | Updated booking with new date is displayed | [Desktop](readme/testing/successfully_updated_desktop.png)  | [Tablet](readme/testing/successfully_updated_tablet.png)  | [Mobile](readme/testing/successfully_updated_mobile.png)  | Passed |
+Step 7 | User is redirected to delete booking page with confirmation message | [Desktop](readme/testing/delete_booking_desktop.png)  | [Tablet](readme/testing/delete_booking_tablet.png)  | [Mobile](readme/testing/delete_booking_mobile.png)  | Passed |
+Step 8 | User is redirected back to booked services and services is deleted | [Desktop](readme/testing/deleted_booking_desktop.png)  | [Tablet](readme/testing/deleted_booking_tablet.png)  | [Mobile](readme/testing/deleted_booking_mobile.png)  | Passed |
 
 
 ## HTML Markup Validation Service
