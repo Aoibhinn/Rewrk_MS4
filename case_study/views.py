@@ -21,10 +21,13 @@ class PostList(generic.ListView):
 
 class PostDetail(View):
     """
-    A view to display an individual Rewrk post/case_study which includes 
+    A view to display an individual Rewrk post/case_study which includes
     """
 
     def get(self, request, slug, *args, **kwargs):
+        """
+        A view to
+        """
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -44,8 +47,11 @@ class PostDetail(View):
             },
         )
 
-
     def post(self, request, slug, *args, **kwargs):
+        """
+        A view capture the details of user who provided comment
+        and the comment they provided under the case study
+        """
 
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
@@ -76,9 +82,15 @@ class PostDetail(View):
             },
         )
 
+
 class PostLike(View):
-    
+    """
+    A view to capture when a user likes a case study
+    """
     def post(self, request, slug, *args, **kwargs):
+        """
+        A view to
+        """
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
