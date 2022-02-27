@@ -11,7 +11,7 @@ from .forms import CommentForm
 
 class PostList(generic.ListView):
     """
-    A list of case studies paginated by 6
+    A view to display Rewrk posts/case studies paginated by 6
     """
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -20,6 +20,9 @@ class PostList(generic.ListView):
 
 
 class PostDetail(View):
+    """
+    A view to display an individual Rewrk post/case_study which includes 
+    """
 
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
