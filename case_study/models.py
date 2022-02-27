@@ -1,3 +1,7 @@
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
@@ -21,6 +25,9 @@ class Post(models.Model):
         User, related_name='blogpost_like', blank=True)
 
     class Meta:
+        """
+        A class for posts ordering by created on date
+        """
         ordering = ["-created_on"]
 
     def __str__(self):
@@ -31,6 +38,9 @@ class Post(models.Model):
 
 
 class Comment(models.Model):
+    """
+    Comment Model
+    """
     post = models.ForeignKey(Post, on_delete=models.CASCADE,
                              related_name="comments")
     name = models.CharField(max_length=80)
@@ -40,6 +50,9 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     class Meta:
+        """
+        A class for ordering comments by created on date
+        """
         ordering = ["created_on"]
 
     def __str__(self):

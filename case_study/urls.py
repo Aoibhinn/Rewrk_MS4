@@ -2,8 +2,9 @@
 # Imports
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
-from . import views
 from django.urls import path
+
+from . import views
 
 urlpatterns = [
     path('case_study/', views.PostList.as_view(), name='case_study'),
