@@ -4,6 +4,15 @@
     + [Feature 1 Navigation Menu and Homepage](#feature-1-navigation-menu-and-homepage)
       - [User Stories Steps 1](#user-stories-steps-1)
       - [User Story Testing Results 1](#user-story-testing-results-1)
+    + [Feature 2 External Service Booking Form](#feature-2-external-service-booking-form)
+      - [User Stories Steps 1](#user-stories-steps-1)
+      - [User Story Testing Results 1](#user-story-testing-results-1)
+    + [Feature 3 Case Studies & Case Study Details](#feature-3-case-studies-&-case-study-details)
+      - [User Stories Steps 1](#user-stories-steps-1)
+      - [User Story Testing Results 1](#user-story-testing-results-1)
+    + [Feature 4 Comments & Likes for Case Study Details](#feature-4-comments-&-likes-for-case-study-details)
+      - [User Stories Steps 1](#user-stories-steps-1)
+      - [User Story Testing Results 1](#user-story-testing-results-1)
 
      
 
@@ -64,7 +73,6 @@ Step 4 | A success message appears confirming 'A member of our team will be in t
 1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/
 2. Scroll down the case study page
 3. Select first case study 
-4. Log into 
 
 #### User Story Testing Results 1
 Step| Result | Desktop | Tablet | Mobile | Status
@@ -72,6 +80,27 @@ Step| Result | Desktop | Tablet | Mobile | Status
 Step 1 | The case study page is displayed with header text and published case studies | [Desktop](readme/testing/case_study_desktop.png)  | [Tablet](readme/testing/case_study_tablet.png)  | [Mobile](readme/testing/case_study_mobile.png)  | Passed |
 Step 2 | The case study page is pagniated and will display a next button when posts exceeds 6 | [Desktop](readme/testing/paginate_case_study_desktop.png)  | [Tablet](readme/testing/paginate_case_study_tablet.png)  | [Mobile](readme/testing/paginate_case_study_mobile.png)  | Passed |
 Step 3 | User is redirected to case study detail page to view title, time, author, content, comments, postcomment and like functionality | [Desktop](readme/testing/case_study_detail_desktop.png)  | [Tablet](readme/testing/case_study_detail_tablet.png)  | [Mobile](readme/testing/case_study_detail_mobile.png)  | Passed |
+
+### Feature 4 Comments & Likes for Case Study Details
+#### User Stories Steps 1
+1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/ and as a logged in user scroll down the case study detail pag to view comments and likes
+2. Input text into 'Leave Comment Field'
+3. Select the 'submit' button
+4. Select the 'like' button under case study
+5. As an admin neviagte to https://rewrk-ms4.herokuapp.com/admin/case_study/comment/
+6. As an admin select test comment
+7. Navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/
+8. Log out and navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/ 
+#### User Story Testing Results 1
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | The user is able to view comments, like and leave a comment under the case study | [Desktop](readme/testing/comments_likes_desktop.png)  | [Tablet](readme/testing/comments_likes_tablet.png)  | [Mobile](readme/testing/comments_likes_mobile.png)  | Passed |
+Step 2 | The user is able to input a comment in the 'Leave a Comment' form | [Desktop](readme/testing/input_comment_desktop.png)  | [Tablet](readme/testing/input_comment_tablet.png)  | [Mobile](readme/testing/input_comment_mobile.png)  | Passed |
+Step 3 | A success message is displayed notifying the user their comment is awaiting approval | [Desktop](readme/testing/comment_awaiting_approval_desktop.png)  | [Tablet](readme/testing/comments_likes_tablet.png)  | [Mobile](readme/testing/comments_likes_mobile.png)  | Passed |
+Step 4 | The heart icon is filled and the counter is changed to 1 | [Desktop](readme/testing/like_case_study_desktop.png)  | [Tablet](readme/testing/like_case_study_tablet.png)  | [Mobile](readme/testing/like_case_study_mobile.png)  | Passed |
+Step 5 | Admin can view comments | [Desktop](readme/testing/admin_comments.png) | Passed |
+Step 6 | User is able to view approved comment | [Desktop](readme/testing/approved_comment_desktop.png)  | [Tablet](readme/testing/approved_comment_tablet.png)  | [Mobile](readme/testing/approved_comment_mobile.png)  | Passed |
+Step 7 | 'Leave a Comment' form is not available for logged out users  | [Desktop](readme/testing/logged_out_comment_form_desktop.png)  | [Tablet](readme/testing/logged_out_comment_form_tablet.png)  | [Mobile](readme/testing/logged_out_comment_form_mobile.png)  | Passed |
 
 
 ## HTML Markup Validation Service
