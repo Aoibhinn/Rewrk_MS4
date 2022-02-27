@@ -21,9 +21,8 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 
 
 # Table of Contents
-1. [UX](https://github.com/Aoibhinn/Rewrk_MS4#ux)
-   * [Website owner goals](https://github.com/Aoibhinn/Rewrk_MS4#website-owner-business-goals)
-   * [User stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
+1. [Scope](https://github.com/Aoibhinn/Rewrk_MS4#scope)
+   * [User Stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
    * [Wireframes](https://github.com/Aoibhinn/Rewrk_MS4#wireframes)
 2. [Features](https://github.com/Aoibhinn/Rewrk_MS4#features)
 3. [Database Schema](https://github.com/Aoibhinn/Rewrk_MS4#database-schema)
@@ -38,26 +37,41 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 7. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
 
-# UX
-## Website owner business goals
-* I want my visitors to be able to navigate my website intuitively and easily.
-* I would like the website to be informative for visitors.
-* I would like to manage the information about the our services.
-* I would like to be able to add draft services so that I can finish writing the content later.
-* I would like to edit and update client case studies.
-* I would like to be able to add draft case studies so that I can finish writing the content later.
-* I would like to add bookings to my customer's profile so they can keep of track of what they have booked.
-* I would like to collect the details of customers who are intrested in our services.
-
+# Scope
 ## User Stories
-### New user goals:
-* I want to find information about Rewrks services
-* I want to read case studies about past project.
-* I want to book a service with Rewrk.
-### Returning user goals:
-* I would like to view the available services.
-* I would like to be able to book a services.
-* I would like to view booked services on my profile.
+
+The user stories for the regular user eg: "customer" (a potential or existing customer) are described as follows:
+
+### User Stories feature 2 External Service Booking Form
+* User Story 2.1: As a website visitor I would like to book a service with Rewrk without creating an account
+* User Story 2.2: As a website visitor I would to be notified if I have not completed the form accurately and in full
+* User Story 2.3: As a website visitor I would like to be notified that I have completed the form accurately and in full via a confirmation message
+### User Stories feature 3 - Case Studies & Case Study Details
+* User Story 3.1: As a website visitor/logged in user I would like to view all published articles from rewrk along with the date, number of comments, and likes each of the received.
+* User Story 3.2: As a website visitor/logged in user I would like case studies to be paginated so it does not take the page a long time to load
+* User Story 3.3: As a website visitor/logged in user I would like to view the contents of an individual case study along with it's comments, likes, date of publication.
+### User Stories feature 4 - Comments & Likes for Case Study Details
+* User Story 4.1: As a logged in user I would like to view the number of likes and comments under a case study
+* User Story 4.2: As a logged in user I would like to be able to input a comment into the comment text box
+* User Story 4.3: As a logged in user I would like to be able to submit my comment under a case study and receive confirmation that it has been successfully submitted
+* User Story 4.4: As a logged in user I would like to be able to like a case study
+* User Story 4.5: As an admin user I would like to be able to view all comments under case studies
+* User Story 4.6: As a logged in user I would like to be able to view individual case study comments and approve comments to be publised
+* User Story 4.7: As a logged in user I would like to be able to view my approved comment under a case study
+* User Story 4.1: As a unlogged in user I should not be able to submit a comment to a case study
+### User Stories feature 5 - My Bookings and Logged in Booking
+* User Story 5.1: As a logged in user I would like to be able to view all of my bookings I've currently made with rewrk
+* User Story 5.2: As a logged in user I would like to be able to book a service directly from my booking page
+* User Story 5.3: As a logged in user I would like to be able to select a date and service I would like to book with rewrk
+* User Story 5.4: As a logged in user I would like to receive a confirmation message the service has been successfully booked and view the service I just booked
+* User Story 5.5: As a logged in user I would like to to be able to edit a service I have booked
+* User Story 5.5: As a logged in user I would like to to be able to delete a service I have booked
+### User Stories feature 6 - Services and Service Detail
+* User Story 6.1: As a normal/logged in user I want to be able to view all service rewrk has available
+* User Story 6.2: As a normal/logged in user I want to be able to view the details and price of an available service
+* User Story 6.2: As a normal I want to be able to book a service without having to create an account with rewrk
+* User Story 6.4: As a logged in user I want to be able to create a booking from a service and be redirected back to 'my bookings' tab
+
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 

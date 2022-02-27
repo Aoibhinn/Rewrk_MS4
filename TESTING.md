@@ -26,8 +26,6 @@
       - [User Stories Steps 5](#user-stories-steps-5)
       - [User Story Testing Results 5](#user-story-testing-results-5)
 
-     
-
 ## Manual testing information
 Testing was completed on the following browsers and device types
 
