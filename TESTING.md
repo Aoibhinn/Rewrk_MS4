@@ -54,11 +54,11 @@ Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  
 #### User Story Testing Results 1
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | The external service booking form is displayed | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
-Step 2 | A notification appears asking user to 'Fill in this field' | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
-Step 3 | The user is prevented from adding a letter character to the telephone field | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
-Step 4 | The user is able to complete all fields with their details | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
-Step 5 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 1 | The external service booking form is displayed | [Desktop](readme/testing/external_booking_form_desktop.png)  | [Tablet](readme/testing/external_booking_form_tablet.png)  | [Mobile](readme/testing/external_booking_form_mobile.png)  |Passed |
+Step 2 | A notification appears asking user to 'Fill in this field' | [Desktop](readme/testing/external_booking_form_unfilled_fields_desktop.png)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 3 | The user is prevented from adding a letter character to the telephone field | [Desktop](#)  | [Tablet](readme/testing/external_booking_form_unfilled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_unfilled_fields_mobile.png)  | Passed  |
+Step 4 | The user is able to complete all fields with their details | [Desktop](readme/testing/external_booking_form_filled_fields_desktop.png)  | [Tablet](readme/testing/external_booking_form_filled_fields_tablet.png)  | [Mobile](readme/testing/external_booking_form_filled_fields_mobile.png)  | Passed |
+Step 5 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](readme/testing/external_booking_form_success_message_desktop.png)  | [Tablet](readme/testing/external_booking_form_success_message_tablet.png)  | [Mobile](readme/testing/external_booking_form_success_message_mobile.png)  | Passed |
 
 ### Feature 2 Case Studies & Case Study Details
 #### User Stories Steps 1
