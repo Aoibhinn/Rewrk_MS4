@@ -42,29 +42,55 @@ Step 6 | My Bookings inlcudes table with services booked by customer | [Desktop]
 Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  | [Tablet](readme/testing/logout_tablet.png)  | [Mobile](readme/testing/logout_mobile.png) | Passed |
 
 
+### Feature 2 External Service Booking Form
+#### User Stories Steps 1
+1. Navigate to https://rewrk-ms4.herokuapp.com/service_booking/booking/
+2. Complete fields but leave telephone blank
+2. Complete fields but leave try to input a 'letter' instead of a number
+3. Complete all fields
+4. Click Submit
+
+
+#### User Story Testing Results 1
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | The external service booking form is displayed | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 2 | A notification appears asking user to 'Fill in this field' | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 3 | The user is prevented from adding a letter character to the telephone field | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 4 | The user is able to complete all fields with their details | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+Step 5 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](#)  | [Tablet](#)  | [Mobile](#)  |   |
+
+### Feature 2 Case Studies & Case Study Details
+#### User Stories Steps 1
+1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/
+2. Select the first Case Study 'KPMG'
+
+
+
+
+
+
+
+
 
 ## HTML Markup Validation Service
 I used https://validator.w3.org/ to validate the html files
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-bag/templates/bag/bag.html  | 0 errors and 0 contrast errors| [Results](readme/testing/bag_w3validation.png) 
-checkout/templates/checkout/checkout.html | 0 errors and 0 contrast errors| [Results](readme/testing/checkout_w3validation.png)  
-checkout/templates/checkout/checkout_success.html | 0 errors and 0 contrast errors| [Results](readme/testing/checkout_success_w3validation.png)  
-home/templates/home/index.html | 0 errors and 0 contrast errors| [Results](readme/testing/index_w3validation.png)
-products/templates/products/add_product.html | 0 errors and 0 contrast errors| [Results](readme/testing/add_product_w3validation.png)
-products/templates/products/edit_product.html | 0 errors and 0 contrast errors| [Results](readme/testing/add_product_w3validation.png)  
-products/templates/products/product_detail.html | 0 errors and 0 contrast errors| [Results](readme/testing/products_detail_w3validation.png) 
-products/templates/products/products.html | 0 errors and 0 contrast errors| [Results](readme/testing/products_w3validation.png)     
-profile/templates/profile/profile.html | 0 errors and 0 contrast errors| [Results](readme/testing/profile_w3validation.png)  
-profile/templates/profile/order_history.html | 0 errors and 0 contrast errors| [Results](readme/testing/order_history_w3validation.png)  
-templates/allauth/account/login.html | 0 errors and 0 contrast errors| [Results](readme/testing/login_w3validation.png)
-templates/allauth/account/logout.html | 0 errors and 0 contrast errors| [Results](readme/testing/logout_w3validation.png)
-templates/allauth/account/register.html | 0 errors and 0 contrast errors| [Results](readme/testing/registraion_w3validation.png) 
-templates/allauth/account/password_change.html | 0 errors and 0 contrast errors| [Results](readme/testing/forgot_password_w3validation.png)
-templates/allauth/account/password_reset.html | 0 errors and 0 contrast errors| [Results](readme/testing/reset_password_w3validation.png)
-templates/allauth/account/password_reset_done.html | 0 errors and 0 contrast errors| [Results](readme/testing/password_reset_done_w3validation.png)
-templates/allauth/account/verification_sent.html | 0 errors and 0 contrast errors| [Results](readme/testing/password_reset_sent_w3validation.pngg)
+templates/services.html | 0 errors and 0 contrast errors| [Results](#) 
+templates/service.html | 0 errors and 0 contrast errors| [Results](#)  
+templates/post_detail.html | 0 errors and 0 contrast errors| [Results](#)  
+templates/edit_booking.html | 0 errors and 0 contrast errors| [Results](#)
+templates/delete_booking.html | 0 errors and 0 contrast errors| [Results](#)
+templates/create_booking.html | 0 errors and 0 contrast errors| [Results](#)  
+templates/case_study.html | 0 errors and 0 contrast errors| [Results](#) 
+templates/booking.html | 0 errors and 0 contrast errors| [Results](#)     
+templates/booked_services.html | 0 errors and 0 contrast errors| [Results](#)  
+templates/base.html | 0 errors and 0 contrast errors| [Results](#)  
+templates/account/login.html | 0 errors and 0 contrast errors| [Results](#)
+templates/account/logout.html | 0 errors and 0 contrast errors| [Results](#)
+templates/account/signup.html | 0 errors and 0 contrast errors| [Results](#) 
 <br>
 
 
