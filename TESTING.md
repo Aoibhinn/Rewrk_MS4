@@ -2,20 +2,25 @@
 - [Testing](#testing)
   * [Manual testing information](#manual-testing-information)
     + [Feature 1 Navigation Menu and Homepage](#feature-1-navigation-menu-and-homepage)
+      - [User Stories feature 1](#user-stories-feature-1)
       - [User Stories Steps 1](#user-stories-steps-1)
       - [User Story Testing Results 1](#user-story-testing-results-1)
     + [Feature 2 External Service Booking Form](#feature-2-external-service-booking-form)
-      - [User Stories Steps 1](#user-stories-steps-1)
-      - [User Story Testing Results 1](#user-story-testing-results-1)
+      - [User Stories feature 2](#user-stories-feature-2)
+      - [User Stories Steps 2](#user-stories-steps-2)
+      - [User Story Testing Results 2](#user-story-testing-results-2)
     + [Feature 3 Case Studies & Case Study Details](#feature-3-case-studies-&-case-study-details)
-      - [User Stories Steps 1](#user-stories-steps-1)
-      - [User Story Testing Results 1](#user-story-testing-results-1)
+      - [User Stories feature 3](#user-stories-feature-3)
+      - [User Stories Steps 3](#user-stories-steps-3)
+      - [User Story Testing Results 3](#user-story-testing-results-3)
     + [Feature 4 Comments & Likes for Case Study Details](#feature-4-comments-&-likes-for-case-study-details)
-      - [User Stories Steps 1](#user-stories-steps-1)
-      - [User Story Testing Results 1](#user-story-testing-results-1)
+      - [User Stories feature 4](#user-stories-feature-4)
+      - [User Stories Steps 4](#user-stories-steps-4)
+      - [User Story Testing Results 4](#user-story-testing-results-4)
     + [Feature 5 My Bookings and Logged in Booking](#feature-5-my-bookings-and-logged-in-booking)
-      - [User Stories Steps 1](#user-stories-steps-1)
-      - [User Story Testing Results 1](#user-story-testing-results-1)
+      - [User Stories feature 5](#user-stories-feature-5)
+      - [User Stories Steps 5](#user-stories-steps-5)
+      - [User Story Testing Results 5](#user-story-testing-results-5)
 
      
 
@@ -55,15 +60,20 @@ Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  
 
 
 ### Feature 2 External Service Booking Form
-#### User Stories Steps 1
+
+### User Stories feature 2
+* User Story 2.1: As a website visitor I would like to book a service with Rewrk without creating an account
+* User Story 2.2: As a website visitor I would to be notified if I have not completed the form accurately and in full
+* User Story 2.3: As a website visitor I would like to be notified that I have completed the form accurately and in full via a confirmation message
+
+#### User Stories Steps 2
 1. Navigate to https://rewrk-ms4.herokuapp.com/service_booking/booking/
 2. Complete fields but leave telephone blank
 3. Complete fields but leave try to input a 'letter' instead of a number
 4. Complete all fields
 5. Click Submit
 
-
-#### User Story Testing Results 1
+#### User Story Testing Results 2
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The external service booking form is displayed | [Desktop](readme/testing/external_booking_form_desktop.png)  | [Tablet](readme/testing/external_booking_form_tablet.png)  | [Mobile](readme/testing/external_booking_form_mobile.png)  |Passed |
@@ -72,12 +82,18 @@ Step 3 | The user is able to complete all fields with their details | [Desktop](
 Step 4 | A success message appears confirming 'A member of our team will be in touch with you shortly! | [Desktop](readme/testing/external_booking_form_success_message_desktop.png)  | [Tablet](readme/testing/external_booking_form_success_message_tablet.png)  | [Mobile](readme/testing/external_booking_form_success_message_mobile.png)  | Passed |
 
 ### Feature 3 Case Studies & Case Study Details
-#### User Stories Steps 1
+
+### User Stories feature 3
+* User Story 3.1: As a website visitor/logged in user I would like to view all published articles from rewrk along with the date, number of comments, and likes each of the received.
+* User Story 3.2: As a website visitor/logged in user I would like case studies to be paginated so it does not take the page a long time to load
+* User Story 3.3: As a website visitor/logged in user I would like to view the contents of an individual case study along with it's comments, likes, date of publication.
+
+#### User Stories Steps 3
 1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/
 2. Scroll down the case study page
 3. Select first case study 
 
-#### User Story Testing Results 1
+#### User Story Testing Results 3
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The case study page is displayed with header text and published case studies | [Desktop](readme/testing/case_study_desktop.png)  | [Tablet](readme/testing/case_study_tablet.png)  | [Mobile](readme/testing/case_study_mobile.png)  | Passed |
@@ -85,17 +101,28 @@ Step 2 | The case study page is pagniated and will display a next button when po
 Step 3 | User is redirected to case study detail page to view title, time, author, content, comments, postcomment and like functionality | [Desktop](readme/testing/case_study_detail_desktop.png)  | [Tablet](readme/testing/case_study_detail_tablet.png)  | [Mobile](readme/testing/case_study_detail_mobile.png)  | Passed |
 
 ### Feature 4 Comments & Likes for Case Study Details
-#### User Stories Steps 1
-1. Navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/ and as a logged in user scroll down the case study detail pag to view comments and likes
+
+### User Stories feature 4
+* User Story 4.1: As a logged in user I would like to view the number of likes and comments under a case study
+* User Story 4.2: As a logged in user I would like to be able to input a comment into the comment text box
+* User Story 4.3: As a logged in user I would like to be able to submit my comment under a case study and receive confirmation that it has been successfully submitted
+* User Story 4.4: As a logged in user I would like to be able to like a case study
+* User Story 4.5: As an admin user I would like to be able to view all comments under case studies
+* User Story 4.6: As a logged in user I would like to be able to view individual case study comments and approve comments to be publised
+* User Story 4.7: As a logged in user I would like to be able to view my approved comment under a case study
+* User Story 4.1: As a unlogged in user I should not be able to submit a comment to a case study
+
+#### User Stories Steps 4
+1. Navigate to https://rewrk-ms4.herokuapp.com/national-trust/ and as a logged in user scroll down the case study detail pag to view comments and likes
 2. Input text into 'Leave Comment Field'
 3. Select the 'submit' button
 4. Select the 'like' button under case study
 5. As an admin neviagte to https://rewrk-ms4.herokuapp.com/admin/case_study/comment/
 6. As an admin select test comment
-7. Navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/
-8. Log out and navigate to https://rewrk-ms4.herokuapp.com/case_study/national-trust/ 
+7. Navigate to https://rewrk-ms4.herokuapp.com/national-trust/
+8. Log out and navigate to https://rewrk-ms4.herokuapp.com/national-trust/
 
-#### User Story Testing Results 1
+#### User Story Testing Results 4
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The user is able to view comments, like and leave a comment under the case study | [Desktop](readme/testing/comments_likes_desktop.png)  | [Tablet](readme/testing/comments_likes_tablet.png)  | [Mobile](readme/testing/comments_likes_mobile.png)  | Passed |
@@ -108,7 +135,17 @@ Step 7 | 'Leave a Comment' form is not available for logged out users  | [Deskto
 
 
 ### Feature 5 My Bookings and Logged in Booking
-#### User Stories Steps 1
+
+### User Stories feature 5
+* User Story 5.1: As a logged in user I would like to be able to view all of my bookings I've currently made with rewrk
+* User Story 5.2: As a logged in user I would like to be able to book a service directly from my booking page
+* User Story 5.3: As a logged in user I would like to be able to select a date and service I would like to book with rewrk
+* User Story 5.4: As a logged in user I would like to receive a confirmation message the service has been successfully booked and view the service I just booked
+* User Story 5.5: As a logged in user I would like to to be able to edit a service I have booked
+* User Story 5.5: As a logged in user I would like to to be able to delete a service I have booked
+
+
+#### User Stories Steps 5
 1. As a logged in user navigate to https://rewrk-ms4.herokuapp.com/customer/ no bookings
 2. Select 'Click here to book a new service'
 3. Select a 'Booking Date' and 'Service'
@@ -119,7 +156,7 @@ Step 7 | 'Leave a Comment' form is not available for logged out users  | [Deskto
 8. Select 'delete booking'
 
 
-#### User Story Testing Results 1
+#### User Story Testing Results 5
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | User is presented with booking table and message notifying them they have no bookings | [Desktop](readme/testing/my_bookings_desktop.png)  | [Tablet](readme/testing/my_bookings_tablet.png)  | [Mobile](readme/testing/my_bookings_mobile.png)  | Passed |
