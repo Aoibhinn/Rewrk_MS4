@@ -171,7 +171,7 @@ Step 8 | User is redirected back to booked services and services is deleted | [D
 
 ### Feature 6 Services and Service Detail
 
-### User Stories feature 5
+### User Stories feature 6
 * User Story 6.1: As a normal/logged in user I want to be able to view all service rewrk has available
 * User Story 6.2: As a normal/logged in user I want to be able to view the details and price of an available service
 * User Story 6.2: As a normal I want to be able to book a service without having to create an account with rewrk

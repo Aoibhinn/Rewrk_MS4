@@ -1,24 +1,17 @@
+<br>![Responsive Rewrk](readme/testing/am_i_responsive_img.png)
+
 # Rewrk
 
-## Project 4 - Full Stack Toolkit
-<img src="media/images/Screenshot 2021-11-29 at 23.32.43.png">
+Rewrk is a digital service provider where customers can come and view each of the services offered by Rewrk, developed for Milestone 4 as part of the Code Institute/UCD - Diploma in Software Development (E-commerce Applications)
 
-# Overview
+There are two types of users, and I have set up accounts for both
 
-Rewrk is a digital service provider where customers can come and view each of the services offered by Rewrk. Customers are able to read case studies about businesses who have utilised Rewrk’s services to ensure they are a credible provider. 
+An admin(administrator) user account has been set up with username/password of admin/Password1@
+A regular(shopper) user account has been set up with username/password of Test13/Password1@
 
-Site administrators have the ability to add, remove or update services and case studies to ensure the most up to date content is being presented to customers. Customers are able to create an account with Rewrk to view booked services and become part of a Rewrk community. 
-
-This combined with an intuitive interface aims to deliver a smooth and enjoyable customer experience to maximise repeat visits to the site
-
-The live site can be found <a href="https://rewrk-ms4.herokuapp.com/" target="_blank" rel="noopener">here</a>. (Note: Right click on link to open a new tab).
-
-# Strategy 
-
-During the pandemic a lot of local businesses were forced to close their doors for months. Prior to this many businesses did not have e-commerce websites or even social media accounts and when they were forced to close they were unable to reach any of their customers. 
-
-Rewkrs aim is to provide these businesses with access to digital services at reasonable prices. Many web development companies charge high prices that can be out of reach to local, small businesses. Rewkrs aim is not only to create a digital presence for the business but also to educate business owners on how to continue to grow their business online long after working with Rewrk by creating a community that receives monthly emails from Rewrk. 
-
+**View the live site [here](https://rewrk-ms4.herokuapp.com/)**
+<br><br>
+<br>
 
 # Table of Contents
 1. [Scope](https://github.com/Aoibhinn/Rewrk_MS4#scope)
@@ -36,6 +29,24 @@ Rewkrs aim is to provide these businesses with access to digital services at rea
 6. [Deployment](https://github.com/Aoibhinn/Rewrk_MS4#deployment)
 7. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
+# Overview
+
+* This project is a website is for submission as milestone project 4 as part of the Code Institute - Diploma in Software * Development (Full stack) course.
+* The website is deployed using Heroku pages at the following url: https://rewrk-ms4.herokuapp.com/
+* The repository on GitHub that contains the website source code and assets is available at the following url:https://github.com/Aoibhinn/Rewrk_MS4
+* The website was built with a responsive look and feel for desktop, tablet and mobile devices.
+
+
+# Strategy 
+
+
+# Structure
+
+
+## Code Structure
+
+
+#### Models
 
 # Scope
 ## User Stories
@@ -75,37 +86,20 @@ The user stories for the regular user eg: "customer" (a potential or existing cu
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
-## Wireframes
+## Skeleton
+### Wireframes
 I used Balsamiq to create the wireframes.
 Wireframes were not created for the Service, ServiceDetail, Login  pages as the basic design is similar to other form styled pages.
 
-* Home page 
-<img src="media/images/All Services:Home.png" >
 
-* service detail
-<img src="media/images/service_detail.png" >
 
-* service booking
-<img src="media/images/service_booking.png" >
-
-* login
-<img src="media/images/login.png" >
-
-* create account
-<img src="media/images/create_an_account.png">
-
-* Home page mobile view
-<img src="media/images/All_services_mobile.png">
-
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
-
-## Design
-### Colors
+## Surface
+### Color Palette
 The main colors used in this project:
 * Font and Accent color: #4C6FBF blue
 * Background color: Black #003060; navy
 
-### Fonts
+### Typography
 Sans-Serif is used as the main font. I did not feel it necessary to change the default font type as Sans-Serif is an easy font to read and displays well throughout the site.
 
 ### Images
