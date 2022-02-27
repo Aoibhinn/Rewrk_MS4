@@ -36,9 +36,9 @@ Step| Result | Desktop | Tablet | Mobile | Status
 Step 1 | The homepage is displayed, Login and Register links in the top right of the site | [Desktop](readme/testing/home_logged_out_desktop.png)  | [Tablet](readme/testing/home_logged_out_tablet.png)  | [Mobile](readme/testing/home_logged_out_mobile.png)  | Passed  |
 Step 2 | The homepage is displayed with a header logo(desktop), All Services, Book Services, Case Studies, My Bookings and logout. | [Desktop](readme/testing/home_logged_in_desktop.png) | [Tablet](readme/testing/home_logged_in_tablet.png)  | [Mobile](readme/testing/home_logged_in_mobile.png) | Passed  |
 Step 3 | All Services includes Header Image, Info About Rewrk, and Available Services. | [Desktop](readme/testing/all_services_desktop.png) | [Tablet](readme/testing/all_services_tablet.png)  | [Mobile](readme/testing/all_services_mobile.png)  | Passed  |
-Step 4 | Book Service inlcudes input fields on form | [Desktop](#)  | [Tablet](#) | [Mobile](#)  |  |
-Step 5 | Case Study inlcudes recent case studies posted by Rewrk Admin | [Desktop](#)  | [Tablet](#)  | [Mobile](#) |  |
-Step 6 | My Bookings inlcudes table with services booked by customer | [Desktop](#) | [Tablet](#)  | [Mobile](#) |  |
-Step 7 | The user is logged out | [Desktop](#)  | [Tablet](#)  | [Mobile](#) | Passed |
+Step 4 | External Book Service inlcudes input fields on form | [Desktop](readme/testing/external_booking_form_desktop.png)  | [Tablet](readme/testing/external_booking_form_tablet.png) | [Mobile](readme/testing/external_booking_form_mobile.png)  | Passed |
+Step 5 | Case Study inlcudes recent case studies posted by Rewrk Admin | [Desktop](readme/testing/case_studies_desktop.png)  | [Tablet](readme/testing/case_studies_tablet.png)  | [Mobile](readme/testing/case_studies_mobile.png) | Passed |
+Step 6 | My Bookings inlcudes table with services booked by customer | [Desktop](readme/testing/booked_services_desktop.png) | [Tablet](readme/testing/booked_services_tablet.png)  | [Mobile](readme/testing/booked_services_mobile.png) | Passed |
+Step 7 | The user is logged out | [Desktop](readme/testing/logout_desktop.png)  | [Tablet](readme/testing/logout_tablet.png)  | [Mobile](readme/testing/logout_mobile.png) | Passed |
 
 
