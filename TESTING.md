@@ -67,8 +67,6 @@ Step 5 | A success message appears confirming 'A member of our team will be in t
 
 
 
-
-
 ## HTML Markup Validation Service
 I used https://validator.w3.org/ to validate the html files
 

@@ -40,13 +40,13 @@ class DeleteBooking(SuccessMessageMixin, DeleteView):
     model = Booking
     template_name = 'delete_booking.html'
     success_url = reverse_lazy('booked_services')
-    success_message = 'Booking deleted successfully!'
+    success_message = 'Your booking has been successfully deleted!'
 
 
-class EditBooking(UpdateView):
+class EditBooking(SuccessMessageMixin, UpdateView):
     """Edit booking view"""
     model = Booking
     form_class = CreateBookingForm
     template_name = 'edit_booking.html'
     success_url = reverse_lazy('booked_services')
-    success_message = 'Booking edited successfully!'
+    success_message = 'Your booking has been successfully updated!'
