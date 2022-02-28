@@ -98,8 +98,6 @@ To complement the apps there are:
     post, name, email, body, created_on, approved
 
 
-
-
 # Scope
 ## User Stories
 
@@ -147,15 +145,20 @@ Wireframes were not created for the Service, ServiceDetail, Login  pages as the 
 
 ## Surface
 ### Color Palette
-The main colors used in this project:
+I have gone for a simple and minimal design for the website, with predominately Navy, Blue and white font colours
+There are five colours in the color palette
 * Font and Accent color: #4C6FBF blue
 * Background color: Black #003060; navy
+* #ffff - White for background colours
 
 ### Typography
 Sans-Serif is used as the main font. I did not feel it necessary to change the default font type as Sans-Serif is an easy font to read and displays well throughout the site.
 
-### Images
-Images were sourced from canva.com
+The Sans-Serif font is the main font used throughout the whole website. This font is from the Google fonts library.
+
+
+## Features
+The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
@@ -209,19 +212,32 @@ Images were sourced from canva.com
 ### Customer app for viewing booked services
 <img src="media/images/customer_booking_app.png">
 
-# Technologies Used:
-### Programming Languages:
-* CSS, HTML, Python, and Django.
-### Database framework
-* Postgres.
-### Git
-* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-### Github
-* GitHub was used to store the projects code after being pushed from Git.
-### Bootstrap 5
-* Bootstrap was used to for design and to make the website responsive.
-### Balsamiq
-* Balsamiq was used to create the wireframes during the design process.
+# Technologies Used
+
+## Languages 
+
+- HTML (https://en.wikipedia.org/wiki/HTML)
+    - The project uses html to build the relevant pages
+- CSS (https://en.wikipedia.org/wiki/CSS)
+    - The project uses CSS to style the relevant pages
+- Django (https://www.djangoproject.com/)
+    - Django is the framework used in this project
+    - The Django templating language was used to render pages
+- Python v3.9 (https://www.python.org/)
+
+    - Python was used for server side coding on the project, a number of libraries were also used(The requirements.txt file contains this list):
+        - asgiref==3.4.1
+        - cloudinary==1.28.0
+        - dj-database-url==0.5.0
+        - dj3-cloudinary-storage==0.0.6
+        - Django==3.2.9
+        - django-summernote==0.8.20.0
+        - gunicorn==20.1.0
+        - psycopg2==2.9.2
+        - pytz==2021.3
+        - sqlparse==0.4.2
+        - django-allauth==0.49.0
+        - django-crispy-forms==1.14.0
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
