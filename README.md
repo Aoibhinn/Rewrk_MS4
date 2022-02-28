@@ -13,21 +13,6 @@ A regular(shopper) user account has been set up with username/password of Test13
 <br><br>
 <br>
 
-# Table of Contents
-1. [Scope](https://github.com/Aoibhinn/Rewrk_MS4#scope)
-   * [User Stories](https://github.com/Aoibhinn/Rewrk_MS4#user-stories)
-   * [Wireframes](https://github.com/Aoibhinn/Rewrk_MS4#wireframes)
-2. [Features](https://github.com/Aoibhinn/Rewrk_MS4#features)
-3. [Database Schema](https://github.com/Aoibhinn/Rewrk_MS4#database-schema)
-4. [Technologies Used](https://github.com/Aoibhinn/Rewrk_MS4#technologies-used)
-5. [Testing](https://github.com/Aoibhinn/Rewrk_MS4#testing)
-    * [Functionality testing](https://github.com/Aoibhinn/Rewrk_MS4#functionality-testing)
-    * [Code Validation](https://github.com/Aoibhinn/Rewrk_MS4#code-validation)
-    * [Compatibility testing](https://github.com/Aoibhinn/Rewrk_MS4#compatibility-testing)
-    * [Performance testing](https://github.com/Aoibhinn/Rewrk_MS4#performance-testing)
-    * [User stories testing](https://github.com/Aoibhinn/Rewrk_MS4#user-stories-testing)
-6. [Deployment](https://github.com/Aoibhinn/Rewrk_MS4#deployment)
-7. [Acknowledgments](https://github.com/Aoibhinn/Rewrk_MS4#acknowledgements)
 
 # Overview
 
@@ -36,12 +21,42 @@ A regular(shopper) user account has been set up with username/password of Test13
 * The repository on GitHub that contains the website source code and assets is available at the following url:https://github.com/Aoibhinn/Rewrk_MS4
 * The website was built with a responsive look and feel for desktop, tablet and mobile devices.
 
+# UX
+## Strategy 
 
-# Strategy 
+The primary goal of the website from a site users perspective is as follows:
+
+* To register for an account on the website and receive a notification successful registration.
+* To login or logout from the website.
+* Have a personalised booking page to view, edit and delete booked services
+* View a list of services on the website.
+* View an individual service detail(price, description)
+* To book a serice without requiring an account
+* To view case a list of case studies on the website 
+* View individual case study details (comment, like, case study content)
 
 
-# Structure
+## Structure
+## Website pages
+* I used the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box".
+* Below are the main page's/features functionality wise, there are some others for password reset/verification etc. that are described in the user story section.
+* All pages have a common look and feel and a common header/footer. On a tablet/mobile the look and feel is slightly different with a burger menu.
+* These pages are described in more detail in the user stories section.
 
+Page            |Description
+:-------------         |:------------- 
+Home/Services     | The Home/Service page displays a hero image with 2 call to action buttons, below are available services
+External Service Booking Form          | The External Service Booking Form includes a form with fields a not logged in user can complete
+Case Studies          | The Case Studies page includes published articles paginated by 6 articles per page
+Case Study Detail | Displays individual case studies which includes content, comment and like funcationality
+My Bookings     | A logged in user can view, delete, edit booked services
+Create a Booking   | A logged in user can directly book a service by selecting date and service
+Edit a Booking     | A logged in user can directly edit the date and service of an booked service
+Delete a Booking   | A logged in user can directly delete a booking from 'my bookings'
+Service Detail     | A normal user can few the details and price of a service and book via the external booking form, a logged in user can directly book a service
+Register            | A user can register an account on the site with a valid email address
+Log in              | A user can login with a valid username and password         
+Log out             | A user can log out of their account
 
 ## Code Structure
 
