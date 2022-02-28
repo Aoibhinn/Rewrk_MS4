@@ -174,6 +174,17 @@ The navigation bar is displayed on all pages with All Services, Book Service, Ca
 <br>![Homepage tablet](readme/testing/logout_tablet.png)
 <br>![Homepage mobile](readme/testing/logout_mobile.png)
 
+### Feature 2 External Service Booking Form
+#### Description feature 2
+- Enables users to book a service without Rewrk without creating an account
+<br>![External Service Booking Form](readme/testing/external_booking_form_desktop.png)
+
+- The form includes validation to ensure the form is completed in full with accurate information
+<br>![Form Validation](readme/testing/external_booking_form_unfilled_fields_desktop.png)
+
+- The form displays success message confirming 'A member of our team will be in touch with you shortly!
+<br>![Homepage footer](readme/testing/external_booking_form_success_message_desktop.png)
+
 
 
 
