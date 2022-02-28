@@ -13,8 +13,51 @@ A regular(shopper) user account has been set up with username/password of Test13
 <br><br>
 <br>
 
+# Table of Contents
+- [Rewrk](#Rewrk)
+- [Project Overview](#project-overview)
+- [UX](#ux)
+  * [Strategy](#strategy)
+  * [Structure](#structure)
+    + [Website pages](#website-pages)
+    + [Code Structure](#code-structure)
+    + [Database](#database)
+      - [Models](#models)
+        * [Service Model](#service-model)
+        * [Booking Model](#booking-model)
+        * [Post Model](#post-model)
+        * [Comment Model](#coment-model)
+  * [Scope](#scope)
+    + [User Stories](#user-stories)
+  * [Skeleton](#skeleton)
+    + [Wireframes](#wireframes)
+  * [Surface](#surface)
+    + [Color Palette](#color-palette)
+    + [Typography](#typography)
+- [Features](#features)
+    + [Feature 1 Homepage and All Services](#feature-1-homepage-and-all-services)
+      - [Description feature 1](#description-feature-1)
+    + [Feature 2 External Service Booking Form](#feature-2-external-service-booking-form)
+      - [Description feature 2](#description-feature-2)
+    + [Feature 3 Case Studies & Case Study Details](#feature-3-case-studies-&-case-study-details)
+      - [Description feature 3](#description-feature-3)
+    + [Feature 4 Comments & Likes for Case Study Details](#feature-4-comments-&-likes-for-case-study-details)
+      - [Description feature 4](#description-feature-4)
+    + [Feature 5 My Bookings and Logged in Booking Form](#feature-5-my-bookings-and-logged-in-booking-form)
+      - [Description feature 5](#description-feature-5)
+    + [Feature 6 Services and Service Detail](#feature-6-services-and-service-detail)
+      - [Description feature 6](#description-feature-6)
+    + [Feature 7 Admin](#feature-7-admin)
+      - [Description feature 7](#description-feature-9)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Libraries and other resources](#libraries-and-other-resources)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+  * [Heroku and Postgres Database](#heroku-and-postgres-database)
 
-# Overview
+# Project Overview
 
 * This project is a website is for submission as milestone project 4 as part of the Code Institute - Diploma in Software * Development (Full stack) course.
 * The website is deployed using Heroku pages at the following url: https://rewrk-ms4.herokuapp.com/
@@ -37,7 +80,7 @@ The primary goal of the website from a site users perspective is as follows:
 
 
 ## Structure
-## Website pages
+### Website pages
 * I used the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box".
 * Below are the main page's/features functionality wise, there are some others for password reset/verification etc. that are described in the user story section.
 * All pages have a common look and feel and a common header/footer. On a tablet/mobile the look and feel is slightly different with a burger menu.
@@ -59,7 +102,6 @@ Log in              | A user can login with a valid username and password
 Log out             | A user can log out of their account
 
 ## Code Structure
-
 The project is divided into a number of apps, as is built using the Django Framework.
 The project was built on the I think before I blog, that was part of the project content.
 The apps are described as follows:
@@ -79,21 +121,35 @@ To complement the apps there are:
 - Procfile: To run the application
 - Requirements.txt: Containing the python libraries installed
 
-#### Models
+## Database
+
+### User Profile model
+* Django's user and admin model was utilised.
+
+### Service App
+<img src="media/images/service_model.png">
+
+### Case Study App
+<img src="media/images/case_study_app.png">
+
+### Customer app for viewing booked services
+<img src="media/images/customer_booking_app.png">
+
+## Models
 
 - The following models were created to represent the database model structure for the website
 
-##### Service
+### Service Model
 - The model contains the following fields: service_name, slug employee, featured_image, price, excerpt, description created_on, status, customer, id
 
-##### Booking
+### Booking Model
 - The model contains the following fields: 
     user, service_name, booking_date
 
-##### Post
+### Post Model
 - The model contains the following fields:  employee, title, slug, content, excerpt, created_on,status, likes
 
-##### Comment
+### Comment Model
 - The model contains the following fields: 
     post, name, email, body, created_on, approved
 
@@ -157,7 +213,9 @@ Sans-Serif is used as the main font. I did not feel it necessary to change the d
 The Sans-Serif font is the main font used throughout the whole website. This font is from the Google fonts library.
 
 
-## Existing Features
+
+#Features
+
 The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
 
 ### Feature 1 Homepage and All Services
@@ -240,26 +298,6 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 - Depending on whether the user is authenticated or not they will be redirected to a form to book a service
 <br>![Book Now](readme/testing/book_now_desktop.png)
 
-
-
-
-
-
-
-
-# Database Schema
-### User Profile model
-* Django's user and admin model was utilised.
-
-### Service App
-<img src="media/images/service_model.png">
-
-### Case Study App
-<img src="media/images/case_study_app.png">
-
-### Customer app for viewing booked services
-<img src="media/images/customer_booking_app.png">
-
 # Technologies Used
 
 ## Languages 
@@ -312,8 +350,6 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
     - For troubleshooting and debugging of the project code
 - PEP8 (https://www.python.org/dev/peps/pep-0008/)
   - I used the pep8 code analysis plugin in Pycharm to check for pep8 errors
-
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 # Testing
 The testing information and results for this project are documented in [TESTING.md](TESTING.md)
@@ -385,5 +421,6 @@ Before creating a Heroku app make sure your project has these two files:
 * My family and friends for their support, feedback and testing.
 
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
+
 
 
