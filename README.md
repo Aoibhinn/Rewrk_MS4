@@ -199,13 +199,11 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 <br>![Cae Study Detail](readme/testing/case_study_detail_desktop.png)
 
 ### Feature 4 Comments & Likes for Case Study Details
-#### Description feature 3
+#### Description feature 4
 -  Comments, likes can be viewed on Case Study Detail pages and comments can be added under a case study if a user is authenticated
-
 <br>![Comments & Likes ](readme/testing/approved_comment_desktop.png)
 
 -  A success message is displayed notifying authenticated users their comment is awaiting approval
-
 <br>![Awaiting Approval](readme/testing/comment_awaiting_approval_desktop.png)
 
 - A user can also choose to like a case study
@@ -213,6 +211,22 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 
 - 'Leave a Comment' form is not available for logged out users
 <br>![Unauthenticated user ](readme/testing/logged_out_comment_form_desktop.png)
+
+### Feature 5 My Bookings and Logged in Booking
+#### Description feature 5
+-  The my bookings tab enables authenticated users to view all of my bookings I've currently made with rewrk.
+<br>![Table no booking](readme/testing/my_bookings_desktop.png)
+<br>![Table with booking](readme/testing/success_booked_service_desktop.png)
+
+- An authenticated user can directly book a service from My Bookings
+<br>![Direct Booking Form](readme/testing/create_booking_desktop.png)
+
+- A booking can be edited for the date and service by an authenticated user 
+<br>![Edit Booking](readme/testing/edit_booking_desktop.png)
+
+- An authenticated user can delete a booked service 
+<br>![Edit Booking](readme/testing/delete_booking_desktop.png)
+
 
 
 
