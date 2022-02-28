@@ -198,6 +198,23 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 - The case study detail page to enables users to view title, time, author, content, comments, postcomment and like functionality
 <br>![Cae Study Detail](readme/testing/case_study_detail_desktop.png)
 
+### Feature 4 Comments & Likes for Case Study Details
+#### Description feature 3
+-  Comments, likes can be viewed on Case Study Detail pages and comments can be added under a case study if a user is authenticated
+
+<br>![Comments & Likes ](readme/testing/approved_comment_desktop.png)
+
+-  A success message is displayed notifying authenticated users their comment is awaiting approval
+
+<br>![Awaiting Approval](readme/testing/comment_awaiting_approval_desktop.png)
+
+- A user can also choose to like a case study
+<br>![Cae Study Detail](readme/testing/like_case_study_desktop.png)
+
+- 'Leave a Comment' form is not available for logged out users
+<br>![Unauthenticated user ](readme/testing/logged_out_comment_form_desktop.png)
+
+
 
 
 
