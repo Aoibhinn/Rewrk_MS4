@@ -166,11 +166,11 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 - The homepage consists of an hero image with call to action buttons, a header/nav bar, available services and footer
 - The header and footer is consistent across all pages
 - The navigation bar is displayed with a logo on all pages with a All Services, Book Service, Case Studies, My Bookings, Register and Login
-<br>![Homepage desktop](rreadme/testing/home_logged_in_desktop.png)
+<br>![Homepage desktop](readme/testing/home_logged_in_desktop.png)
 
 - The website links in the footer and account differ between a regular user and authenticated user
-<br>![Homepage footer admin]()
-<br>![Homepage footer regular]()
+<br>![Homepage footer unauthenticated user](readme/testing/footer_desktop.png)
+<br>![Homepage footer authenticated user](readme/testing/unlogged_in_footer_desktop.png)
 
 - The navigation bar is displayed on all pages with All Services, Book Service, Case Studies, My Bookings, Register and Login
 <br>![Homepage tablet](readme/testing/logout_tablet.png)
@@ -212,7 +212,7 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 - 'Leave a Comment' form is not available for logged out users
 <br>![Unauthenticated user ](readme/testing/logged_out_comment_form_desktop.png)
 
-### Feature 5 My Bookings and Logged in Booking
+### Feature 5 My Bookings and Logged in Booking Form
 #### Description feature 5
 -  The my bookings tab enables authenticated users to view all of my bookings I've currently made with rewrk.
 <br>![Table no booking](readme/testing/my_bookings_desktop.png)
@@ -226,6 +226,20 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 
 - An authenticated user can delete a booked service 
 <br>![Edit Booking](readme/testing/delete_booking_desktop.png)
+
+
+### Feature 6 Services and Service Detail
+#### Description feature 6
+-  The Services and Service Detail feature enables users to view the price and details of available services
+<br>![Service Detail](readme/testing/service_detail_desktop.png)
+<br>![Services](readme/testing/our_services_desktop.png)
+
+- An authenticated user can directly book a service from My Bookings
+<br>![Direct Booking Form](readme/testing/create_booking_desktop.png)
+
+- Depending on whether the user is authenticated or not they will be redirected to a form to book a service
+<br>![Book Now](readme/testing/book_now_desktop.png)
+
 
 
 
