@@ -60,8 +60,27 @@ Log out             | A user can log out of their account
 
 ## Code Structure
 
+The project is divided into a number of apps, as is built using the Django Framework.
+The project was built on the I think before I blog, that was part of the project content.
+The apps are described as follows:
+
+* Case Studies/Posts (part of the original I think before I blog): This app contains functionality regarding the sites case studies.
+* Services/Service (part of the original I think before I blog): This app contains functionality regarding the sites services.
+* External Booking Form (New app): This app contains functionality enabling unauthenticated users to register interest in a service.
+* My Bookings (New App): This app contains functionality enabling users to book,edit,delete and view bookings at an authenticated user.
 
 #### Models
+
+To complement the apps there are:
+
+- Rewrk : Containing settings.py(Settings) and urls.py(Website urls) for example
+- templates: Containing the base.html, allauth(django authentication) and includes html files
+- static: Base css and Javascript files
+- manage.py: Main python file for starting the website
+- README.md: Readme documentation
+- Procfile: To run the application
+- Requirements.txt: Containing the python libraries installed
+
 
 # Scope
 ## User Stories
