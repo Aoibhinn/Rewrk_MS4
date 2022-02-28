@@ -167,10 +167,12 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 - The header and footer is consistent across all pages
 - The navigation bar is displayed with a logo on all pages with a All Services, Book Service, Case Studies, My Bookings, Register and Login
 <br>![Homepage desktop](rreadme/testing/home_logged_in_desktop.png)
-The website links in the footer and account differ between a regular user and authenticated user
+
+- The website links in the footer and account differ between a regular user and authenticated user
 <br>![Homepage footer admin]()
 <br>![Homepage footer regular]()
-The navigation bar is displayed on all pages with All Services, Book Service, Case Studies, My Bookings, Register and Login
+
+- The navigation bar is displayed on all pages with All Services, Book Service, Case Studies, My Bookings, Register and Login
 <br>![Homepage tablet](readme/testing/logout_tablet.png)
 <br>![Homepage mobile](readme/testing/logout_mobile.png)
 
@@ -184,6 +186,17 @@ The navigation bar is displayed on all pages with All Services, Book Service, Ca
 
 - The form displays success message confirming 'A member of our team will be in touch with you shortly!
 <br>![Homepage footer](readme/testing/external_booking_form_success_message_desktop.png)
+
+### Feature 3 Case Studies & Case Study Details
+#### Description feature 3
+- The case studies page enables users to view all published articles from rewrk along with the date, number of comments, and likes each of the received.
+<br>![Case Studies](readme/testing/case_studies_desktop.png)
+
+- The page is pagniated and will display a next button when posts exceeds 6
+<br>![Pagination](readme/testing/paginate_case_study_desktop.png)
+
+- The case study detail page to enables users to view title, time, author, content, comments, postcomment and like functionality
+<br>![Cae Study Detail](readme/testing/case_study_detail_desktop.png)
 
 
 
