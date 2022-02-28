@@ -157,47 +157,26 @@ Sans-Serif is used as the main font. I did not feel it necessary to change the d
 The Sans-Serif font is the main font used throughout the whole website. This font is from the Google fonts library.
 
 
-## Features
+## Existing Features
 The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
 
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
+### Feature 1 Homepage and All Services
+#### Description feature 1
 
-# Features
-## Existing Features
-### Navigation Bar
-   * Featured on all pages is a fully responsive navigation bar that has links to all pages (Home, All Services, Book Service and My Bookings).
-   * If the user is not logged in then there are two additional links available available (Register and Login).
-   * If the user is logged in then the Register, Login links no longer display. The user can now Logout or view their bookings.
-   * A confirmation message displays when the user logs in.
-<img src="media/images/logged_in.png">
-<img src="media/images/logged_out.png">
+- The homepage consists of an hero image with call to action buttons, a header/nav bar, available services and footer
+- The header and footer is consistent across all pages
+- The navigation bar is displayed with a logo on all pages with a All Services, Book Service, Case Studies, My Bookings, Register and Login
+<br>![Homepage desktop](rreadme/testing/home_logged_in_desktop.png)
+The website links in the footer and account differ between a regular user and authenticated user
+<br>![Homepage footer admin]()
+<br>![Homepage footer regular]()
+The navigation bar is displayed on all pages with All Services, Book Service, Case Studies, My Bookings, Register and Login
+<br>![Homepage tablet](readme/testing/logout_tablet.png)
+<br>![Homepage mobile](readme/testing/logout_mobile.png)
 
-### Footer
-   * Featured on all pages is a fully responsive footer that has links to all pages (All Services, Book Service, Case studies and Profile).
-   * If the user is logged in then a link to their profile will be available.
-<img src="media/images/Screenshot 2021-11-29 at 23.18.32.png">
-<img src="media/images/Screenshot 2021-11-29 at 23.18.24.png">
 
-### Available Service section
-   * On the home page the available services and an excerpt is displayed.
-   * If the user clicks on a specific service they can view the full description of the service information. At the bottom of the service detail page is a link to the service booking page.
-<img src="media/images/all_services_ui.png">
-<img src="media/images/service_detail_ui.png">
-  
-### Booking form
-* This page invites the user to submit their interest in booking a specific service.
-* On submission of the form the user is provided with a confirmation message.
-<img src="media/images/Screenshot 2021-11-29 at 23.22.46.png">
 
-### Case Studies
-* This page show cases previous project Rewrk have worked on and the customer success stories.
-* A user can select individual case studies to read about projects.
-<img src="media/images/case_study_view.png">
 
-## Future features
-* A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking.
-* Cancel and edit bookings from profile
-* Payment method 
 
 # Database Schema
 ### User Profile model
