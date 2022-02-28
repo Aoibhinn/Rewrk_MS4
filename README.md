@@ -69,8 +69,6 @@ The apps are described as follows:
 * External Booking Form (New app): This app contains functionality enabling unauthenticated users to register interest in a service.
 * My Bookings (New App): This app contains functionality enabling users to book,edit,delete and view bookings at an authenticated user.
 
-#### Models
-
 To complement the apps there are:
 
 - Rewrk : Containing settings.py(Settings) and urls.py(Website urls) for example
@@ -80,6 +78,26 @@ To complement the apps there are:
 - README.md: Readme documentation
 - Procfile: To run the application
 - Requirements.txt: Containing the python libraries installed
+
+#### Models
+
+- The following models were created to represent the database model structure for the website
+
+##### Service
+- The model contains the following fields: service_name, slug employee, featured_image, price, excerpt, description created_on, status, customer, id
+
+##### Booking
+- The model contains the following fields: 
+    user, service_name, booking_date
+
+##### Post
+- The model contains the following fields:  employee, title, slug, content, excerpt, created_on,status, likes
+
+##### Comment
+- The model contains the following fields: 
+    post, name, email, body, created_on, approved
+
+
 
 
 # Scope
