@@ -54,7 +54,8 @@ A regular(shopper) user account has been set up with username/password of Test13
   * [Libraries and other resources](#libraries-and-other-resources)
 - [Testing](#testing)
 - [Deployment](#deployment)
-  * [Local Deployment](#local-deployment)
+  * [Cloning using Github](#cloning-using-github)
+  * [Forking using Github](#forking-using-github)
   * [Heroku and Postgres Database](#heroku-and-postgres-database)
 
 # Project Overview
@@ -395,7 +396,7 @@ Before creating a Heroku app make sure your project has these two files:
 
 1. Click on the settings tab and then click "Reveal config vars".
 2. Config variables added throughout project:
-(add image of variables)
+[Config Vars](readme/testing/heroku_config_vards.png)
 
 ### Setting up database in deployment
 
@@ -430,7 +431,6 @@ Before creating a Heroku app make sure your project has these two files:
     * Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button.
     * To deploy your app to Heroku click the "Deploy Branch" button.
 
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 ## Acknowledgements
 * My mentor for support, advice and feedback.
