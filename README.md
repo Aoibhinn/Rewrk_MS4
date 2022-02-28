@@ -239,77 +239,37 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
         - django-allauth==0.49.0
         - django-crispy-forms==1.14.0
 
+## Libraries and other resources
+- Bootstrap 5.0 (https://getbootstrap.com/docs/5.0)
+    - The project uses the bootstrap library for some UI components in the website (Buttons, Card, Carousel, Modal, Pagination, Navbar)
+- Postgres (https://www.postgresql.org/)
+  - The deployed project on Heroku uses a Postgres database
+- SQLLite (https://www.sqlite.org/index.html)
+  - The database uses in local development was a SQLLite database
+- Gitpod (https://gitpod.io/)
+    - Gitpod was used as an IDE for the project
+- Github (https://github.com/)
+    - GitHub was used to store the project code in a repository
+- Google Fonts (https://fonts.google.com/)
+    - Google font Poppins was used as the website font
+- Balsamiq (https://balsamiq.com/)
+    - Balsamiq was used to create the website wireframes
+- Font Awesome (https://fontawesome.com/)
+    - Font awesome was used to provide the relevant fonts/icons for the website
+- CSS Validation Service (https://jigsaw.w3.org/css-validator/)
+   - CSS validation service for validation the css in the project  
+- HTML Markup Validation Service (https://validator.w3.org/)   
+    - HTML validation service for validation the css in the project  
+- Chrome dev tools (https://developers.google.com/web/tools/chrome-devtools)
+    - For troubleshooting and debugging of the project code
+- PEP8 (https://www.python.org/dev/peps/pep-0008/)
+  - I used the pep8 code analysis plugin in Pycharm to check for pep8 errors
+
 [Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 # Testing
-## Functionality Testing
-### Manual testing
-* I used Google Chrome developer tools throughout the development process for testing and solving problems with style and display issues.
-* I used Github Project and Issues to track tasks. After each task completion, I would fully test it before moving on to the next task.
-* All links were tested multiple times during the development process and again once the project was completed to ensure that all pages were linked correctly.
-* All Forms and form elements were tested to ensure that they work as they should, with user feedback on errors as well as user feedback on successful submission.
+The testing information and results for this project are documented in [TESTING.md](TESTING.md)
 
-
-## Code Validation
-**1. CSS Validation using <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">W3C CSS Validator Services</a>.**
-
-No errors were found in the style.css
-<img src="media/images/Screenshot 2021-11-28 at 11.38.40.png">
-
-
-**2. <a href="http://pep8online.com/">PEP8</a> was used to test the Python code**
-
-All Python files were tested with PEP8, with no errors found.
-There were some pylint errors in gitpod regarding missing docstrings, these errors were fixed during development.
-
-
-## Compatibility Testing
-* The website was tested on Google Chrome, and apple cellphones.
-* The website was viewed on a variety of device sizes such as Desktop, Iphone11, I also used the responsive function when inspecting the pages to view various sizes. 
-
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
-
-## User Stories testing
-### As a customer/potential customer
-1. I want to find information about the various services.
-    * Users can do this on the home page, if they want more detailed information they can click on the service they are interested in and find more information.
-
-    <img src="media/images/all_services_ui.png">
-    <img src="media/images/service_detail_ui.png">
-
-2. I want to read about past projects Rewrk have worked with.
-    * Users can read about past projects to learn more about was Rewrk has successfully achieved for their past clients.
-    <img src="media/images/case_study_view.png">
-    <img src="media/images/case_study_detail.png">
-
-3. I want to book one of Rewkrs services
-    * Users can leave their details via Rewkrs service booking form for a member of the team to get back to them.
-    <img src="media/images/book_service.png">
-
-4. I want to register on the website
-    * Users can register using the register link.
-    <img src="media/images/register.png">
-
-5. I was to view the services I have booked with Rewrk
-    * Users can register an account on Rewrk and an admin member can add bookings to their profiles
-    <img src="media/images/Screenshot 2021-11-29 at 23.28.45.png">
-
-
-### As an Admin user:
-
-1. I would like to be able to add draft services so that I can finish writing the content later.
-    * The website owner can add a draft service which will not be published to the site until the status is changed to published.
-    <img src="media/images/draft.png">
-
-2. I would like to manage Rewrks case studies 
-    * The admin panel allows the website owner to amend and update case studies.
-    <img src="media/images/case_study.png">
-
-3. I want to be able to add booked services to customer accounts
-    * The admin panel allows admin users to add bookings to customer registered accounts
-    <img src="media/images/Screenshot 2021-11-29 at 23.30.29.png">
-
-[Back to Table of Contents](https://github.com/Aoibhinn/Rewrk_MS4#table-of-contents)
 
 
 # Deployment
