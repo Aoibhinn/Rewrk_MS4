@@ -359,6 +359,24 @@ The testing information and results for this project are documented in [TESTING.
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
 
+
+## Cloning using Github
+[Repository Link](https://github.com/Aoibhinn/Rewrk_MS4)
+
+* Log in to Github.
+* Access my repository using the above link.
+* In the repository page select code next to Gitpod.
+* Button, make sure HTTPS is selected.
+* Click on the copy button on the right (Two overlapping squares)
+* Open a new workspace in Gitpod.
+* Once the workspace loads in the terminal type. git clone https://github.com/aoibhinn/rewrk_ms4
+
+## Forking using Github
+* You can contribute to this project without affecting the main branch with the following steps.
+* Navigate to github repositores select this repository.
+* On the right of the repository name you will find the fork button next to the star and watch buttons.
+* Pressing said button will create a copy for you to use.
+
 ### Deployment to Heroku
 Before creating a Heroku app make sure your project has these two files:
 
