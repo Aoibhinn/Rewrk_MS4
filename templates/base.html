@@ -31,11 +31,12 @@
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container">
       <a class="navbar-brand" href="{% url 'home' %}"><span>Rewrk</span></a>
-      </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li {% if '/' == request.path %} class="nav-item active mr-3" {% else %} class="nav-item mr-3" {% endif %}>
@@ -117,7 +118,7 @@
         <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0">Designed by Aoibhinn Mc Goona</p>
           <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="{% url 'home' %} class=" lass="nav-link px-2 text-muted">All Services</a></li>
+            <li class="nav-item"><a href="{% url 'home' %}" class="nav-link px-2 text-muted">All Services</a></li>
             <li class="nav-item"><a href="{% url 'service_booking' %}" class="nav-link px-2 text-muted">Book
                 Service</a></li>
             <li class="nav-item"><a href="{% url 'case_study' %}" class="nav-link px-2 text-muted">Case Studies</a>
