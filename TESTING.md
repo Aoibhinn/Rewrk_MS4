@@ -198,19 +198,17 @@ I used https://validator.w3.org/ to validate the html files
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-templates/services.html | 0 errors and 0 contrast errors| [Results](#) 
+templates/services.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_index.png) 
 templates/service.html | 0 errors and 0 contrast errors| [Results](#)  
 templates/post_detail.html | 0 errors and 0 contrast errors| [Results](#)  
-templates/edit_booking.html | 0 errors and 0 contrast errors| [Results](#)
-templates/delete_booking.html | 0 errors and 0 contrast errors| [Results](#)
-templates/create_booking.html | 0 errors and 0 contrast errors| [Results](#)  
-templates/case_study.html | 0 errors and 0 contrast errors| [Results](#) 
-templates/booking.html | 0 errors and 0 contrast errors| [Results](#)     
+templates/edit_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_edit_booking.png)
+templates/delete_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_delete_booking.png)
+templates/create_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_create_booking.png)  
+templates/case_study.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_case_study.png) 
+templates/booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_service_booking.png)     
 templates/booked_services.html | 0 errors and 0 contrast errors| [Results](#)  
-templates/base.html | 0 errors and 0 contrast errors| [Results](#)  
-templates/account/login.html | 0 errors and 0 contrast errors| [Results](#)
-templates/account/logout.html | 0 errors and 0 contrast errors| [Results](#)
-templates/account/signup.html | 0 errors and 0 contrast errors| [Results](#) 
+templates/account/login.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_login.png)
+templates/account/signup.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_signup.png) 
 <br>
 
 
