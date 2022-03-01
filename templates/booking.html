@@ -3,40 +3,41 @@
 
 {% block content %}
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
         {% for message in messages %}
         <div class="alert {{ message.tags }} alert-dismissible fade show" id="msg" role="alert">
-            {{ message | safe }}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          {{ message | safe }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         {% endfor %}
-    </div>
-</div>
-</div>
-
-<div class="container">
-
-  <div class="px-4 py-5 my-5 text-center">
-    <h1 class="display-5 fw-bold">Want to work with us?</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">If you are intrested in working with us please complete the form below and one of 
-        our team will be in touch shortly. If you don't have an account created already we would recommend creating one
-        so you can keep track of the services you have booked.
-      </hp></p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      </div>
     </div>
   </div>
-</div>
+
+  <div class="container">
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">Want to work with us?</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">If you are intrested in working with us please complete the form below and one of
+          our team will be in touch shortly. If you don't have an account created already we would recommend creating
+          one
+          so you can keep track of the services you have booked.
+        </p>
+      </div>
+    </div>
+  </div>
+
 <!--Bookings form-->
 <div class="container col-6">
   <form id="form" method="post" class="mt-5">
-      {% csrf_token %}
-      {{ form|crispy }}
-      <div class="text-center">
-        <button data-toggle="modal" data-target="message" type="submit" class="btn btn-dark text-center m-2">Submit</button>
-      </div>
+    {% csrf_token %}
+    {{ form|crispy }}
+    <div class="text-center">
+      <button data-toggle="modal" data-target="message" type="submit"
+        class="btn btn-dark text-center m-2">Submit</button>
+    </div>
   </form>
 </div>
 
