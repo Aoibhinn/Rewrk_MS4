@@ -198,6 +198,20 @@ The user stories for the regular user eg: "customer" (a potential or existing cu
 I used Balsamiq to create the wireframes.
 Wireframes were not created for the Service, ServiceDetail, Login  pages as the basic design is similar to other form styled pages.
 
+Page | Wireframe | 
+------------ | ------------- 
+readme/wireframes/All_Services.png | [Desktop/Tablet/Mobile](readme/wireframes/All_Services.png)
+readme/wireframes/Book_Service.png | [Desktop/Tablet/Mobile](readme/wireframes/Book_Service.png)
+readme/wireframes/Case_Studies.png | [Desktop/Tablet/Mobile](readme/wireframes/Case_Studies.png)
+readme/wireframes/Case_Study_Detail.png | [Desktop/Tablet/Mobile](readme/wireframes/Case_Study_Detail.png)
+readme/wireframes/Delete_Booking.png | [Desktop/Tablet/Mobile](readme/wireframes/Delete_Booking.png)
+readme/wireframes/Edit_Booking.png | [Desktop/Tablet/Mobile](readme/wireframes/Edit_Booking.png)
+readme/wireframes/Login.png | [Desktop/Tablet/Mobile](readme/wireframes/Login.png)
+readme/wireframes/My_Bookings.png | [Desktop/Tablet/Mobile](readme/wireframes/My_Bookings.png)
+readme/wireframes/Register.png | [Desktop/Tablet/Mobile](readme/wireframes/Register.png)
+
+
+
 
 
 ## Surface
