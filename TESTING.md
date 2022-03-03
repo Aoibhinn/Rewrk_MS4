@@ -200,7 +200,6 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 templates/services.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_index.png) 
 templates/service.html | 0 errors and 0 contrast errors| [Results](#)  
-templates/post_detail.html | 0 errors and 0 contrast errors| [Results](#)  
 templates/edit_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_edit_booking.png)
 templates/delete_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_delete_booking.png)
 templates/create_booking.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_create_booking.png)  
