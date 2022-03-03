@@ -211,4 +211,17 @@ templates/account/login.html | 0 errors and 0 contrast errors| [Results](readme/
 templates/account/signup.html | 0 errors and 0 contrast errors| [Results](readme/validation/w3_validation_signup.png) 
 <br>
 
+## CSS Validation Service
+I used https://jigsaw.w3.org/css-validator/ to validate the css(style.css)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+Page | Result | Test Detail/Screenshot
+------------ | ------------- | -------------
+static/style.css | Passed, No errors found | [Results](readme/validation/style_css_validated.png) 
 
