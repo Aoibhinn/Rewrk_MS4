@@ -70,12 +70,12 @@ A regular(shopper) user account has been set up with username/password of Test13
 
 The primary goal of the website from a site users perspective is as follows:
 
-* To register for an account on the website and receive a notification successful registration.
-* To login or logout from the website.
+* To register for an account on the website and receive a notification of successful registration.
+* To login or log out from the website.
 * Have a personalised booking page to view, edit and delete booked services
 * View a list of services on the website.
 * View an individual service detail(price, description)
-* To book a serice without requiring an account
+* To book a service without requiring an account
 * To view case a list of case studies on the website 
 * View individual case study details (comment, like, case study content)
 
@@ -107,8 +107,8 @@ The project is divided into a number of apps, as is built using the Django Frame
 The project was built on the I think before I blog, that was part of the project content.
 The apps are described as follows:
 
-* Case Studies/Posts (part of the original I think before I blog): This app contains functionality regarding the sites case studies.
-* Services/Service (part of the original I think before I blog): This app contains functionality regarding the sites services.
+* Case Studies/Posts (part of the original I think before I blog): This app contains functionality regarding the site's case studies.
+* Services/Service (part of the original I think before I blog): This app contains functionality regarding the services of the site.
 * External Booking Form (New app): This app contains functionality enabling unauthenticated users to register interest in a service.
 * My Bookings (New App): This app contains functionality enabling users to book,edit,delete and view bookings at an authenticated user.
 
@@ -166,23 +166,23 @@ The user stories for the regular user eg: "customer" (a potential or existing cu
 ### User Stories feature 3 - Case Studies & Case Study Details
 * User Story 3.1: As a website visitor/logged in user I would like to view all published articles from rewrk along with the date, number of comments, and likes each of the received.
 * User Story 3.2: As a website visitor/logged in user I would like case studies to be paginated so it does not take the page a long time to load
-* User Story 3.3: As a website visitor/logged in user I would like to view the contents of an individual case study along with it's comments, likes, date of publication.
+* User Story 3.3: As a website visitor/logged in user I would like to view the contents of an individual case study along with its comments, likes, date of publication.
 ### User Stories feature 4 - Comments & Likes for Case Study Details
 * User Story 4.1: As a logged in user I would like to view the number of likes and comments under a case study
 * User Story 4.2: As a logged in user I would like to be able to input a comment into the comment text box
 * User Story 4.3: As a logged in user I would like to be able to submit my comment under a case study and receive confirmation that it has been successfully submitted
 * User Story 4.4: As a logged in user I would like to be able to like a case study
 * User Story 4.5: As an admin user I would like to be able to view all comments under case studies
-* User Story 4.6: As a logged in user I would like to be able to view individual case study comments and approve comments to be publised
+* User Story 4.6: As a logged in user I would like to be able to view individual case study comments and approve comments to be published
 * User Story 4.7: As a logged in user I would like to be able to view my approved comment under a case study
-* User Story 4.1: As a unlogged in user I should not be able to submit a comment to a case study
+* User Story 4.1: As an unlogged in user I should not be able to submit a comment to a case study
 ### User Stories feature 5 - My Bookings and Logged in Booking
 * User Story 5.1: As a logged in user I would like to be able to view all of my bookings I've currently made with rewrk
 * User Story 5.2: As a logged in user I would like to be able to book a service directly from my booking page
 * User Story 5.3: As a logged in user I would like to be able to select a date and service I would like to book with rewrk
 * User Story 5.4: As a logged in user I would like to receive a confirmation message the service has been successfully booked and view the service I just booked
-* User Story 5.5: As a logged in user I would like to to be able to edit a service I have booked
-* User Story 5.5: As a logged in user I would like to to be able to delete a service I have booked
+* User Story 5.5: As a logged in user I would like to be able to edit a service I have booked
+* User Story 5.5: As a logged in user I would like to be able to delete a service I have booked
 ### User Stories feature 6 - Services and Service Detail
 * User Story 6.1: As a normal/logged in user I want to be able to view all service rewrk has available
 * User Story 6.2: As a normal/logged in user I want to be able to view the details and price of an available service
