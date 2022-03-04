@@ -16,7 +16,7 @@
           {% csrf_token %}
           <div class="text-center">
               <strong>Are you sure you want to delete your booking?</strong>
-              <button class="btn btn-dark text-center m-2" type="submit">Delete Booking</button>
+              <button class="btn btn-dark text-center m-2 btn-primary" type="submit">Delete Booking</button>
           </div>
         </form>
       </div>
@@ -24,7 +24,7 @@
   </div>
 {% else %}
 
-<h1 class="text-center mt-3">You need to Login to view this page!</h1>
+<h1 class="text-center mt-3 ">You need to Login to view this page!</h1>
 
 {% endif %}
 {% endblock %}
