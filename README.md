@@ -362,6 +362,10 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 # Testing
 The testing information and results for this project are documented in [TESTING.md](TESTING.md)
 
+## Known Bugs
+### CSS Styling
+Upon submission I noticed there was an error with styling when deployed to heroku: GET https://res.cloudinary.com/dqomzncnr/raw/upload/v1/static/style.12e689ebe9ab.css net::ERR_ABORTED 404. This is the error appearing when viewing the console log on the deployed heroku site.
+
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
 
