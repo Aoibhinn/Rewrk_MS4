@@ -14,7 +14,7 @@
             <h3>{% trans "Sign In" %}</h3>
           <hr>
 
-            <p>{% blocktrans %}Welcome back to the Rewrk. To leave a comment or like a post, please log in. If
+            <p>{% blocktrans %}Welcome back to the Rewrk. To leave a comment, like a post or book a service directly with us please log in. If
                 you
                 have not created an account yet, then <a class="link" href="{{ signup_url }}">sign up</a>
                 first.{% endblocktrans %}</p>
@@ -28,7 +28,7 @@
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
-                <button class="btn btn-signup right" type="submit">{% trans "Sign In" %}</button>
+                <button class="btn btn-signup right btn-primary" type="submit">{% trans "Sign In" %}</button>
             </form>
         </div>
     </div>
