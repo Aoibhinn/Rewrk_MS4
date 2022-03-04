@@ -14,5 +14,5 @@ class BookingForm(forms.Form):
     telephone = forms.IntegerField(required=True)
     service = forms.ModelChoiceField(
         queryset=Service.objects.filter(status=1), initial=0)
-    business_info = forms.CharField(
+    further_information_about_your_business = forms.CharField(
         widget=forms.Textarea, required=False)
