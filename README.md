@@ -154,7 +154,6 @@ To complement the apps there are:
 - The model contains the following fields: 
     post, name, email, body, created_on, approved
 
-
 # Scope
 ## User Stories
 
@@ -210,10 +209,6 @@ readme/wireframes/Login.png | [Desktop/Tablet/Mobile](readme/wireframes/Login.pn
 readme/wireframes/My_Bookings.png | [Desktop/Tablet/Mobile](readme/wireframes/My_Bookings.png)
 readme/wireframes/Register.png | [Desktop/Tablet/Mobile](readme/wireframes/Register.png)
 
-
-
-
-
 ## Surface
 ### Color Palette
 I have gone for a simple and minimal design for the website, with predominately Navy, Blue and white font colours
@@ -227,9 +222,7 @@ Sans-Serif is used as the main font. I did not feel it necessary to change the d
 
 The Sans-Serif font is the main font used throughout the whole website. This font is from the Google fonts library.
 
-
-
-#Features
+# Features
 
 The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
 
@@ -369,11 +362,8 @@ The screenshots below show mainly desktop images, the tablet and mobile images a
 # Testing
 The testing information and results for this project are documented in [TESTING.md](TESTING.md)
 
-
-
 # Deployment
 The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub.
-
 
 ## Cloning using Github
 [Repository Link](https://github.com/Aoibhinn/Rewrk_MS4)
@@ -444,7 +434,6 @@ Before creating a Heroku app make sure your project has these two files:
 
     * Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button.
     * To deploy your app to Heroku click the "Deploy Branch" button.
-
 
 ## Acknowledgements
 * My mentor for support, advice and feedback.
