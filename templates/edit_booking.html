@@ -20,6 +20,7 @@
     <div class="row">
       <div class="text-center mt-4">
         <h2>Edit Booking</h2>
+        <p>If you wish to edit your booking, please choose a new date or service below.</p>
       </div>
     </div>
     <div class="form-group">
@@ -28,7 +29,7 @@
           {% csrf_token %}
           {{ form.as_p }}
           <div class="text-center">
-            <button class="btn btn-dark text-center m-2" type="submit">Update</button>
+            <button class="btn btn-primary  text-center m-2" type="submit">Update Service</button>
           </div>
         </form>
       </div>
